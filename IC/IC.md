@@ -1,7 +1,7 @@
 1) **Tornando o DATASUS mais acessível**
 
 A crise da COVID-19 trouxe à tona a necessidade de dados públicos confiáveis e de fácil acesso para o auxílio à tomada de decisão.
-Neste projeto o aluno vai utilizar a biblioteca PySUS para extrair dados das bases públicas do Ministério da Saúde e do IBGE para gerar tabelas e visualizações de interesse.
+Neste projeto o aluno vai utilizar a biblioteca [PySUS](https://github.com/AlertaDengue/PySUS) para extrair dados das bases públicas do Ministério da Saúde e do IBGE para gerar tabelas e visualizações de interesse.
 Isso inclui dados de nascimentos, mortalidade, internações e atendimento ambulatorial.
 O objetivo final é disponibilizar uma série de bancos de dados curados e consolidados que sejam de fácil consulta para profissionais de saúde e epidemiologistas.
 Habilidades a serem desenvolvidas: Python, SQL (Big Query), visualização, Saúde Pública.
@@ -29,7 +29,7 @@ Conquanto para variáveis contínuas existam várias medidas diagnósticas bem e
 Em trabalho recente, novas medidas foram propostas para variáveis binárias. Neste projeto o aluno irá estender alguns resultados já encontrados ao derivar as características assintóticas de algumas medidas bem como suas distribuições amostrais.
 Habilidades a serem desenvolvidas: MCMC, R, métodos numéricos, cadeias de Markov de tempo discreto. 
 
-5) **Processos gaussianos convexos e suas aplicações***
+5) **Processos gaussianos convexos e suas aplicações**
 
 Neste projeto estamos interessados em explorar certas propriedades das derivadas de processos gaussianos que permitem a modelagem de funções de interesse a partir das suas derivadas.
 Em particular, queremos estender resultados recentes que empregam emulação de funções para resolver os chamados problemas duplamente intratáveis.
