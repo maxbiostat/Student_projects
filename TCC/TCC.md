@@ -21,7 +21,7 @@ O projeto vai analisar um rico conjunto de dados epidemiológicos da epidemia de
 Habilidades: Stan/C++, estatística espacial.
 
 4) **Adaptive truncation for effective sample size estimation**
-Neste projeto queremos utilizar as técnicas de Carvalho & Moreira (2021) para determinar o truncamento da série de autocorrelações.
+Neste projeto queremos utilizar as técnicas de Carvalho & Moreira (2022) para determinar o truncamento da série de autocorrelações.
 Comparar com o positive sequence do Geyer e com o que é feito no Stan.
 
 5) **Acceleration methods for infinite series in Statistics**
