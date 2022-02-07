@@ -15,6 +15,7 @@ References:
 
 Expected skills: strong mathematical statistics and computational statistics background. Competent R or C++ or Python programming. 
 
+---
 
 P2) **Optimal scaling for adaptive MCMC in phylogenetics**
 
