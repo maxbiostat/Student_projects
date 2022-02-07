@@ -66,6 +66,7 @@ In this project we are interested in developing a Bayesian approach that uses al
 Often times the data do not look like a power law for small values and this compromises the overall fit.
 One simple idea is to introduce a difference function that quantifies how different the distribution is from a power law.
 We will extend the ideas of Gillespie (2017) and explore a plethora difference functions. 
+
 References: [Gillespie (2017)](https://www.jstor.org/stable/26362189) and the [poweRlaw](https://github.com/csgillespie/poweRlaw) package.
 
 Skills to be developed: Stan/C++, Bayesian statistics.
@@ -79,6 +80,7 @@ In this project we are interested in implementing and evaluating variable select
 For this, we will study a stochastic search variable selection strategy (SSVS) coupled to a Besag-York-Molié (BYM) spatial model.
 In particular, we will adapt an efficient marginalized [implementation](https://mc-stan.org/users/documentation/case-studies/icar_stan.html) in the Stan language.
 The project will analyze a rich set of epidemiological data from the Ebola epidemic in West Africa between 2013 and 2016.
+
 References: [Morris et al. 2019](http://www.stat.columbia.edu/~gelman/research/published/bym_article_SSTEproof.pdf) and Chapter 4 of my [PhD thesis](https://github.com/maxbiostat/PhD_Thesis). 
 
 Skills to be developed: JAGS, Stan/C++, spatial statistics.
