@@ -1,3 +1,6 @@
+
+# Iniciação Científica
+
 ## Teoria
 
 T1) **A posteriori de Jeffreys para o tamanho de população é própria?**
@@ -51,3 +54,31 @@ A4) Aceleração e truncamento de séries infinitas
 Em [Carvalho & Moreira](https://github.com/maxbiostat/truncation_tests) investigamos estratégias de truncamento de séries infinitas para garantir aproximações de séries infinitas com erro controlado. Neste projeto, buscamos estender as técnicas desenvolvidas utilizando técnicas de aceleração de séries (ver pg 300, seção 8.6 de [Small, 2010](https://www.esalq.usp.br/departamentos/lce/arquivos/aulas/2011/LCE5866/Expansions%20and%20Asymptotics%20for%20Statistics.pdf)). Aplicações incluem a estimação do espectro de autocorrelação de uma cadeia de Markov e ainda muitos problemas de marginalização em Estatística.
 
 Habilidades a serem desenvolvidas: análise numérica; R, C++
+
+# Honours thesis (TCC)
+
+I prefer that the student writes their project in English for practice.  Here are a few suggestions of projects:
+
+T1) **Power law and difference functions**
+
+Power law distributions are an important class of statistical models, allowing us to model fenomena which take values over orders of magnitude.
+In this project we are interested in developing a Bayesian approach that uses all of the available data to estimate the parameters of a power law distribution (in particular its scale, `alpha`).
+Often times the data do not look like a power law for small values and this compromises the overall fit.
+One simple idea is to introduce a difference function that quantifies how different the distribution is from a power law.
+We will extend the ideas of Gillespie (2017) and explore a plethora difference functions. 
+References: [Gillespie (2017)](https://www.jstor.org/stable/26362189) and the [poweRlaw](https://github.com/csgillespie/poweRlaw) package.
+
+Skills to be developed: Stan/C++, Bayesian statistics.
+
+
+T2) **Variable selection for spatial epidemiology studies**
+
+A major problem in real-world applications is discerning which variables are associated (causally or otherwise) with an outcome.
+When many covariates/features are available, the job of finding a set of covariates that parsimoniously "explain" the response is a difficult one.
+In this project we are interested in implementing and evaluating variable selection strategies in the context of epidemiological studies, in order to understand the factors that influence the spatial dynamics of the disease.
+For this, we will study a stochastic search variable selection strategy (SSVS) coupled to a Besag-York-Molié (BYM) spatial model.
+In particular, we will adapt an efficient marginalized [implementation](https://mc-stan.org/users/documentation/case-studies/icar_stan.html) in the Stan language.
+The project will analyze a rich set of epidemiological data from the Ebola epidemic in West Africa between 2013 and 2016.
+References: [Morris et al. 2019](http://www.stat.columbia.edu/~gelman/research/published/bym_article_SSTEproof.pdf) and Chapter 4 of my [PhD thesis](https://github.com/maxbiostat/PhD_Thesis). 
+
+Skills to be developed: JAGS, Stan/C++, spatial statistics.
