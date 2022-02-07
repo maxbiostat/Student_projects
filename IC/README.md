@@ -48,6 +48,6 @@ Habilidades a serem desenvolvidas: processos gaussianos; Stan/C++; estatística 
 
 A4) Aceleração e truncamento de séries infinitas 
 
-Em [Carvalho & Moreira](https://github.com/maxbiostat/truncation_tests) investigamos estratégias de truncamento de séries infinitas para garantir aproximações de séries infinitas com erro controlado. Neste projeto, buscamos estender as técnicas desenvolvidas utilizando técnicas de aceleração de séries (ver seção 8.6 de [Small, 2010](https://www.taylorfrancis.com/books/mono/10.1201/9781420011029/expansions-asymptotics-statistics-christopher-small)). Aplicações incluem a estimação do espectro de autocorrelação de uma cadeia de Markov e ainda muitos problemas de marginalização em Estatística.
+Em [Carvalho & Moreira](https://github.com/maxbiostat/truncation_tests) investigamos estratégias de truncamento de séries infinitas para garantir aproximações de séries infinitas com erro controlado. Neste projeto, buscamos estender as técnicas desenvolvidas utilizando técnicas de aceleração de séries (ver pg 300, seção 8.6 de [Small, 2010](https://www.esalq.usp.br/departamentos/lce/arquivos/aulas/2011/LCE5866/Expansions%20and%20Asymptotics%20for%20Statistics.pdf)). Aplicações incluem a estimação do espectro de autocorrelação de uma cadeia de Markov e ainda muitos problemas de marginalização em Estatística.
 
 Habilidades a serem desenvolvidas: análise numérica; R, C++
