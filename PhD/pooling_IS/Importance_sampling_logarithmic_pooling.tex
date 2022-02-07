@@ -1,0 +1,190 @@
+\documentclass[a4paper, notitlepage, 11pt]{article}
+\usepackage{geometry}
+% WSC 2015 configs
+\fontfamily{times}
+\geometry{verbose,tmargin=30mm,bmargin=25mm,lmargin=25mm,rmargin=25mm}
+% end configs
+\usepackage{setspace,relsize}               
+\usepackage{moreverb}                        
+\usepackage{url}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,citecolor=blue}
+\usepackage{amsmath}
+\usepackage{mathtools} 
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{indentfirst}
+\usepackage{todonotes}
+\usepackage{subfigure}
+\usepackage{multirow}
+\usepackage[authoryear,round]{natbib}
+\bibliographystyle{apalike}
+\usepackage[pdftex]{lscape}
+\usepackage[utf8]{inputenc}
+% Title Page
+\title{\vspace{-9ex}\centering \bf Combining spatio-temporal model predictions through logarithmic pooling}
+\author{
+Luiz Max de Carvalho$^{a}$, Alvaro Faria$^{b}$\\
+a -- School of Applied Mathematics, Getulio Vargas Foundation (FGV), Brazil\\
+b -- School of Mathematics \& Statistics, The Open University, United Kingdom\\
+}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\newtheorem{theo}{Theorem}[]
+\newtheorem{proposition}{Proposition}[]
+\newtheorem{remark}{Remark}[]
+\newtheorem{lemma}{Lemma}[]
+\setcounter{theo}{0} % assign desired value to theorem counter
+\newtheorem{definition}{Definition}[]
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+ In many applied contexts, one has an ensemble of models which generate predictions, that must in turn be aggregated in order to form a consensus prediction.
+ In particular, here we are concerned with~\textit{probabilistic predictions}, i.e., predictions in the form of probability statements or probability distributions.
+ Logarithmic pooling is method for combining distributions that presents many attractive properties, but whose application in practice is hindered by lack of tractability of the normalising constant.
+ The goal of the present project is to develop techniques to combine posterior predictive distributions from spatio-temporal models using output from Markov chain Monte Carlo (MCMC). 
+\end{abstract}
+
+% orecasting geological movement in tailings dams
+
+\section{Background}
+\label{sec:intro}
+
+Mathematical and statistical models are routinely used in decision-making, from weather prediction to epidemic forecasting.
+Since different models usually capture different features of the data, it is usual to combine multiple models in ensemble.  
+Model ensembles usually provide more robust predictions and have found use in Physics~\citep{Leutbecher2008}, Environmetrics~\citep{Roy2008}, Ecology~\citep{Araujo2007} and Epidemiology~\citep{Rosenfeld2012}.
+
+Suppose we have $K$ models, $\boldsymbol{\mathcal{M}} = \{\mathcal{M}_1, \ldots, \mathcal{M}_K \}$ we would like to combine the predictions of.
+In particular, each model $\mathcal{M}_i$ is associated with a posterior predictive distribution:
+\begin{equation}
+\label{eq:posterior_predictive}
+ f_i(\tilde{\boldsymbol{x}} \mid \boldsymbol{x}) = \int_{\boldsymbol{\Theta}} L_i(\tilde{\boldsymbol{x}} \mid \theta)L_i(\boldsymbol{x} \mid \theta)\pi_i(\theta)\,d\theta.
+\end{equation}
+The goal is to combine the $f_i$ in order to obtain a pooled predictive distribution $p$ that reflects aspects of all the models considered and provides better predictions than any of the models in isolation.
+
+\section{Proper scoring rules}
+
+Assessing the quality of model predictions necessitates a principled way to~\textit{score}  predictions in relation with the realised values.
+The so-called~\textit{proper scoring rules} provide a theoretically sound device to evaluate model predictions.
+The presentation here will follow~\cite{Gneiting2007} very closely.
+
+Let $\mathcal{P}$ be a convex class of probability measures on $(\Omega, \mathcal{A})$.
+We call $P \in \mathcal{P}$ a probabilistic forecast. 
+\begin{definition}
+ We say $S : \Omega \to [-\infty, \infty]$ is a~\textbf{scoring rule} if it is measurable and $S(P, \cdot)$ is $P$-quasi-integrable for all $P \in \mathcal{P}$.
+\end{definition}
+An interpretation of a scoring rule is that if a state $\omega \in \Omega$ is realised and the prediction was $P$, the reward to the forecaster is $S(P, \omega)$.
+The expected score under $Q \in \mathcal{P}$ if the forecast is $P$ is
+\begin{equation}
+ \nonumber
+ S(P, Q) := \int_{\Omega} S(P, \omega)dQ(\omega). 
+\end{equation}
+
+\begin{definition}
+We say $S$ is~\textbf{proper} if $S(Q, Q) \geq S(P, Q)$ for all $P, Q \in \mathcal{P}$.
+In addition, we say $S$ is~\textbf{strictly proper} if equality is achieved only for $P = Q$.
+\end{definition}
+
+Next, comes a crucial definition for this short note.
+\begin{definition}
+ If $S$ is a (strictly) proper scoring rule and $c\geq1$ is a constant and $h$ is a $\mathcal{P}$-integrable function, then~\citep[Eq. 2]{Gneiting2007}
+ \begin{equation}
+  \label{eq:strongly_equiv}
+  S^\ast(P, \omega) = c S(P, \omega) + h(\omega)
+ \end{equation}
+is also a (strictly) proper scoring rule and we say $S^\ast$ and $S$ are~\textbf{strongly equivalent} if $c = 1$.
+\end{definition}
+
+Let $\mu$ be a $\sigma$-finite measure on $(\Omega, \mathcal{A})$. 
+For $\alpha > 1$ define $\mathcal{L}_\alpha$ be the space of probability measures on $(\Omega, \mathcal{A})$ such that $\nu \ll \mu$ and $p(\omega) = \frac{d \nu}{d \mu}(\omega)$ and 
+\begin{equation}
+\nonumber
+ ||p||_\alpha = \left( \int_{\Omega} p(\omega)^\alpha d\mu(\omega) \right)^\alpha < \infty.
+\end{equation}
+
+% The following passage from p. 365 in~\cite{Gneiting2007} is of interest and will be reproduced in its entirety:
+% \begin{quote}
+% Predictive densities are defined only up to a set of $\mu$-measure zero.
+% Whenever appropriate, we follow Bernardo (1979, p. 689) and use the unique version defined by $p(\omega) = \lim_{\rho \to 0} P(S_\rho(\omega))/\mu(S_\rho(\omega))$, where $S_\rho(\omega)$ is a sphere of radius $\rho$ centered at $\omega$.
+% \end{quote}
+% The original statement in~\cite{Bernardo1979} is almost identical -- and given without proof -- except for the fact that Bernardo writes $p_\theta$ to make the indexing explicit.
+
+Of particular interest here is the logarithmic score
+\begin{equation}
+\label{eq:logScore}
+ \operatorname{LogS}(p, \omega) = \log p(\omega),
+\end{equation}
+also called the predictive deviance or the ignorance score.
+In the context of~\textit{local} scoring rules, that is, scoring rules $S(p, \omega)$ that depend on $p$ only through the realised value $\omega$,~\cite{Bernardo1979} showed that  every  proper  local scoring rule is~\textit{equivalent} to the logarithmic score.%\footnote{According to~\cite{Gneiting2007} p. 366 this depends on a few (not specified) regularity conditions.}.
+
+\section{Logarithmic pooling}
+\label{sec:background}
+
+A central question when predictions in the form of probability distributions are available is how to combine them into a single pooled probability distribution.
+This is a topic of general interest, both in the statistical~\citep{West1984, Genest1986A, Genest1986B} and decision theory literatures~\citep{Genest1984,French1985,Guardoni2002}.
+A common situation of interest is combining predictive probability distributions about a quantity of interest $\theta \in \mathbf{\Theta} \subseteq \mathbb{R}^p$.
+Studying opinion pooling operators may give important insights on consensus belief formation and group decision making~\citep{West1984,Genest1986B,Guardoni2002}.
+Among the various opinion pooling operators proposed in the literature,~\textbf{logarithmic pooling} has enjoyed much popularity, mainly due to its many desirable properties such as relative propensity consistency (RPC), log-concavity~\citep{Carvalho2019} and external Bayesianity (EB)~\citep{Genest1986A}. 
+In a practical setting, logarithmic pooling finds use in a range of fields, from engineering~\citep{Lind1988, Savchuk1994} to wildlife conservation~\citep{Poole2000} and infectious disease modelling~\citep{Coelho2009}.
+
+First let us define the logarithmic pooling (LP) operator.
+Let $\mathbf{F}_{\theta} := \{f_1(\theta), f_2(\theta), \ldots, f_K(\theta)\}$ be a set of (densities of) prior distributions representing the opinions of $K+1$ experts and let $\boldsymbol\alpha :=\{\alpha_1, \alpha_2, \ldots, \alpha_K \}$ be the vector of weights, such that $\alpha_i > 0\: \forall i$ and $\sum_{i=1}^K \alpha_i = 1$.
+The log-pooled prior is
+\begin{equation}
+\label{eq:logpool}
+ \mathcal{LP}(\mathbf{F_\theta}, \boldsymbol\alpha) := \pi(\theta \mid \boldsymbol\alpha) = t(\boldsymbol\alpha) \prod_{i=1}^K f_i(\theta)^{\alpha_i},
+\end{equation}
+where $t(\boldsymbol\alpha) = \left[ \int_{\boldsymbol\Theta}\prod_{i=1}^K f_i(\theta)^{\alpha_i}\, d\theta \right]^{-1}$.
+
+Logarithmic pooling can be shown to yield proper probability distributions for a finite number of densities~\citep[pg.489]{Genest1986A}.
+It can also be shown that logarithmic pooling is the only aggregation method to universally preserve log-concavity, for any configuration of the weights ($\boldsymbol{\alpha}$).
+This universality result is important because it holds for any set of log-concave distributions, $\mathbf{F}_{\theta}$.
+In contrast, a linear pool of $K$ Gaussian distributions with common mean, for example, would produce a log-concave pooled distribution for any $\boldsymbol{\alpha}$, but this would fail if the means were different.
+
+Consider the predictives described in (\ref{eq:posterior_predictive}) and their unnormalised equivalents, $\boldsymbol{F}^\star = \{f_1^\star, f_2^\star, \ldots, f_K^\star \}$, $f_i(\tilde{x} \mid x) = f_i^\star(\tilde{x} \mid x)/Z_i$.
+Applying the log-score in (\ref{eq:logScore}) to the logarithmic pooling of $\boldsymbol{F}^\star$ we have
+\begin{equation}
+ \label{eq:log_score_pool}
+  \operatorname{LogS}^\star(\pi, \tilde{x}) = \sum_{i=1}^K \alpha_i \log f_i^\star(\tilde{x} \mid x),
+\end{equation}
+which can easily be shown to be a (strictly) proper scoring rule.
+This is convenient because it allows the computation of a proper scoring rule without having to evaluate any normalising constants.
+
+\section*{Open Problems}
+
+Using logarithmic pooling to combine predictive distributions is thus an exciting area of research, with many practical and theoretical lines of inquiry.
+Here, we describe two such lines of research, that would lead to direct practical gain, as well as necessitate novel theoretical approaches.
+
+\subsection{Sampling from the pooled predictive when only samples from previously obtained samples}
+\label{sec:subproj1}
+
+An important setting is a situation where one has fitted $K$ models to a set of data and thus obtained $M$ samples for each of the $K$ posterior predictive distributions.
+These samples are usually obtained~\textit{via} computationally-intensive MCMC techniques.
+One is only able to evaluate the unnormalised posterior densities $f_i^\star(\tilde{x} \mid x)$ and the $Z_i$ are unknown.
+The challenge is then to produce samples from
+\begin{equation}
+\label{eq:pooled_predictive}
+ \pi(\tilde{x} \mid x, \boldsymbol{\alpha}) = t(\boldsymbol{\alpha}) \prod_{i=1}^K f_i(\tilde{x} \mid x)^{\alpha_i},
+\end{equation}
+from a $M \times K$ matrix of samples
+\begin{align*}
+\boldsymbol{\tilde{X}} = \tilde{X}_1^{(1)},&\ldots, \tilde{X}_1^{(M)}\\
+\tilde{X}_2^{(1)},&\ldots, \tilde{X}_2^{(M)}\\ 
+&\vdots\\
+\tilde{X}_K^{(1)},& \ldots, \tilde{X}_K^{(M)}\,\
+\end{align*}
+and a fixed vector of weights $\boldsymbol{\alpha}$.
+
+While sampling from~(\ref{eq:pooled_predictive}) directly is technically possible in certain situations, the challenge here is to produce samples from the pooled predictive by re-using the samples already available; posterior computation is laborious and ideally one would want to construct the pooled predictive with minimal computational overhead.
+
+\subsection{Calibrating the weights for optimal prediction}
+\label{sec:subproj2}
+
+Another important research avenue, related to the above, is to combine the predictive distributions in an optimal way such that the combined predictions are more robust than any of those produced by the models individually.
+This involves optimising expressions of the form~(\ref{eq:log_score_pool}) to find the vector $\boldsymbol{\alpha}^\ast$ that maximises predictive power according to the proper scoring rule of interest.
+This finds direct application in model ensembles in Weather and Epidemiology forecasting; employing the techniques would lead to optimal predictive distributions that are mathematically coherent, respect (strong) log-concavity constraints and provide predictions robust to model idiosyncrasies.
+
+\bibliography{pooling}
+\end{document} 
