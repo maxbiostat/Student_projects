@@ -3,7 +3,7 @@ A collection of open research projects for those interested in working with me.
 
 ### Scientific Initiation (_IC_) projects
 
-If you're an undergraduate student who likes Statistics and Biology, there are a few projects listed [here](https://github.com/maxbiostat/Student_projects/blob/main/IC/IC.md) that might pique your interest.
+If you're an undergraduate student who likes Statistics and Biology, there are a few projects listed [here](https://github.com/maxbiostat/Student_projects/blob/main/IC/README.md) that might pique your interest.
 These range from programming for Public Health data analysis to theoretical statistics. So pick your poison and shoot me an email.
 
 ### Honours projects (aka _TCC_)
