@@ -8,8 +8,8 @@ It is joint work with Drs. [Alvaro Faria](https://www.open.ac.uk/research/people
 
 References:
 
-[Open University PhD call](https://www.open.ac.uk/stem/mathematics-and-statistics/sites/www.open.ac.uk.stem.mathematics-and-statistics/files/files/2021%20PhD%20proposals/2021_Faria%20(1)Logarithmic%20pooling%20of%20probability%20distributions.pdf)
-[PDF with project description](https://github.com/maxbiostat/Student_projects/blob/main/PhD/pooling_IS/Importance_sampling_logarithmic_pooling.pdf) 
+- [Open University PhD call](https://www.open.ac.uk/stem/mathematics-and-statistics/sites/www.open.ac.uk.stem.mathematics-and-statistics/files/files/2021%20PhD%20proposals/2021_Faria%20(1)Logarithmic%20pooling%20of%20probability%20distributions.pdf).
+- [PDF with project description](https://github.com/maxbiostat/Student_projects/blob/main/PhD/pooling_IS/Importance_sampling_logarithmic_pooling.pdf).
 
 Expected skills: strong mathematical statistics and computational statistics background. Competent R or C++ or Python programming. 
 
