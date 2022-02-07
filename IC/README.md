@@ -1,13 +1,6 @@
-1) **Tornando o DATASUS mais acessível**
+## Teoria
 
-A crise da COVID-19 trouxe à tona a necessidade de dados públicos confiáveis e de fácil acesso para o auxílio à tomada de decisão.
-Neste projeto o aluno vai utilizar a biblioteca [PySUS](https://github.com/AlertaDengue/PySUS) para extrair dados das bases públicas do Ministério da Saúde e do IBGE para gerar tabelas e visualizações de interesse.
-Isso inclui dados de nascimentos, mortalidade, internações e atendimento ambulatorial.
-O objetivo final é disponibilizar uma série de bancos de dados curados e consolidados que sejam de fácil consulta para profissionais de saúde e epidemiologistas.
-
-Habilidades a serem desenvolvidas: Python, SQL (Big Query), visualização, Saúde Pública.
-
-2) **A posteriori de Jeffreys para o tamanho de população é própria?**
+T1) **A posteriori de Jeffreys para o tamanho de população é própria?**
 
 Em genética de populações, o tamanho de população, Ne(t), é uma quantidade central para entender a dinâmica evolutiva de uma população natural.
 Em uma análise bayesiana, é preciso estipular uma distribuição _a priori_ para Ne(t) e, no caso constante, Ne(t) = a para todo t, usualmente se utiliza uma priori de Jeffreys, p(a) ~ 1/a.
@@ -16,7 +9,7 @@ Neste projeto o aluno vai mostrar rigorosamente este primeiro resultado e també
 
 Habilidades a serem desenvolvidas: filogenética estatística, estatística bayesiana.
 
-3) **A conexão entre regras de pontuação próprias e o teorema da proporcionalidade de verossimilhanças**
+T2) **A conexão entre regras de pontuação próprias e o teorema da proporcionalidade de verossimilhanças**
 
 Regras de pontuação próprias ([proper scoring rules](https://github.com/maxbiostat/proper_scoring_rules), PSR) são dispositivos matemáticos para avaliar predições probabilísticas que incentivam a honestidade do analista ("forecaster").
 São largamente utilizadas na avaliação de predições ("forecasts") de modelos em finanças, metereologia e epidemiologia.
@@ -25,7 +18,19 @@ Neste projeto, o aluno vai explorar a conexão entre as chamadas regras de pontu
 
 Habilidades a serem desenvolvidas: estatística teórica.
 
-4) **Medidas de diagnóstico para MCMC com variáveis binárias**
+## Aplicações
+
+A1) **Tornando o DATASUS mais acessível**
+
+A crise da COVID-19 trouxe à tona a necessidade de dados públicos confiáveis e de fácil acesso para o auxílio à tomada de decisão.
+Neste projeto o aluno vai utilizar a biblioteca [PySUS](https://github.com/AlertaDengue/PySUS) para extrair dados das bases públicas do Ministério da Saúde e do IBGE para gerar tabelas e visualizações de interesse.
+Isso inclui dados de nascimentos, mortalidade, internações e atendimento ambulatorial.
+O objetivo final é disponibilizar uma série de bancos de dados curados e consolidados que sejam de fácil consulta para profissionais de saúde e epidemiologistas.
+
+Habilidades a serem desenvolvidas: Python, SQL (Big Query), visualização, Saúde Pública.
+
+
+A2) **Medidas de diagnóstico para MCMC com variáveis binárias**
 
 Métodos de cadeias de Markov Monte Carlo (MCMC) constituem uma classe extremamente útil de métodos numéricos, com aplicações todas as áreas da estatística. A correta aplicação destes métodos depende, no entanto, depende de diagnosticar problemas de convergência e performance. 
 Conquanto para variáveis contínuas existam várias medidas diagnósticas bem estabelecidas, para variáveis binárias ou categóricas o conjunto de ferramentas disponíveis é muito menor.
@@ -33,10 +38,16 @@ Em [trabalho recente](https://github.com/maxbiostat/presentations/blob/master/PD
 
 Habilidades a serem desenvolvidas: MCMC, R, métodos numéricos, cadeias de Markov de tempo discreto. 
 
-5) **Processos gaussianos convexos e suas aplicações**
+A3) **Processos gaussianos convexos e suas aplicações**
 
 Neste projeto estamos interessados em explorar certas propriedades das derivadas de processos gaussianos que permitem a modelagem de funções de interesse a partir das suas derivadas.
 Em particular, queremos estender resultados recentes que empregam emulação de funções para resolver os chamados problemas duplamente intratáveis.
 Uma vez desenvolvidos os métodos, vamos investigar uma aplicação nas chamadas [normalised power priors](https://onlinelibrary.wiley.com/doi/10.1002/sim.9124), que são muito utilizadas na análise de ensaios clínicos.
 
 Habilidades a serem desenvolvidas: processos gaussianos; Stan/C++; estatística bayesiana.
+
+A4) Aceleração e truncamento de séries infinitas 
+
+Em [Carvalho & Moreira](https://github.com/maxbiostat/truncation_tests) investigamos estratégias de truncamento de séries infinitas para garantir aproximações de séries infinitas com erro controlado. Neste projeto, buscamos estender as técnicas desenvolvidas utilizando técnicas de aceleração de séries (ver seção 8.6 de [Small, 2010](https://www.taylorfrancis.com/books/mono/10.1201/9781420011029/expansions-asymptotics-statistics-christopher-small)). Aplicações incluem a estimação do espectro de autocorrelação de uma cadeia de Markov e ainda muitos problemas de marginalização em Estatística.
+
+Habilidades a serem desenvolvidas: análise numérica; R, C++
