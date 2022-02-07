@@ -1,6 +1,8 @@
 
 P1) **Combining spatio-temporal model predictions through logarithmic pooling**
 
+Concentration areas: probability, theoretical statistics, model combination.
+
 As the COVID-19 pandemic made even more clear, having reliable prediction models is of utmost importance for decision. In this project the candidate will be expected to exploit the results of [Carvalho et al. (2022)](https://arxiv.org/abs/1502.04206) to study novel ensemble formation techniques using logarithmic pooling. 
 Special attention will be paid to spatio-temporal epidemic models for COVID-19, Influenza, Dengue and Zika.
 The project will involve theoretical and computational aspects. 
@@ -12,4 +14,23 @@ References:
 - [PDF with project description](https://github.com/maxbiostat/Student_projects/blob/main/PhD/pooling_IS/Importance_sampling_logarithmic_pooling.pdf).
 
 Expected skills: strong mathematical statistics and computational statistics background. Competent R or C++ or Python programming. 
+
+
+P2) **Optimal scaling for adaptive MCMC in phylogenetics**
+
+Concentration areas: Statistical Phylogenetics, Markov Chain Monte Carlo.
+
+In my Chapter 2 of [PhD thesis](https://github.com/maxbiostat/PhD_Thesis) I have proposed a class of simple adaptive candidate-generating mechanisms for time-calibrated phylogenies in Metropolis-Hastings. A major question, however, is that of which target acceptance probability leads to optimal performance. 
+In this project the candidate will be expected to use a combination of MCMC theory and computational experiments to understand whether it is possible to obtain general results for the optimal scaling of MCMC for (time-calibrated) phylogenies.
+In the process, the candidate will be expected to expand and strengthen previous results in this area, such as proving or disproving the existence of geometrically-ergodic MH-type chains for this problem.
+The candidate will be also familiarise themselves with the development of [BEAST](https://github.com/beast-dev/beast-mcmc), a software package for Bayesian phylogenetic estimation. 
+
+References:
+
+- [Andrieu & Thoms (2008)](https://people.eecs.berkeley.edu/~jordan/sail/readings/andrieu-thoms.pdf).
+- [Excellent presentation](http://probability.ca/jeff/ftpdir/nashvilleNatesh.pdf) by Natesh Pillai. 
+- [My MCQMC 2020 presentation](https://www.youtube.com/watch?v=h9bWRQ6aeKA).
+
+
+Expected skills: strong mathematical statistics and computational statistics background. Competent JAVA programming. 
 
