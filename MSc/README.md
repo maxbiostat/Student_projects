@@ -14,4 +14,7 @@ Whilst the general problem of prevalence estimation under outcome uncertainty ha
 There are however many open regression problems, such as for instance re-testing of positive cases, a routine procedure nowadays. 
 The student will be expected to implement and extend the models in Section 7.3 of [Bastos, Carvalho & Gomes (2021)](https://github.com/maxbiostat/papers/blob/master/PAPERS/2021_Bastos_Carvalho_Gomes.pdf) using both simulated and real-world data. 
 
+References:
+- In addition to the references already given, Lucas Moschen's [honours thesis](https://github.com/lucasmoschen/rds-bayesian-analysis-tcc) is great resource.
+
 
