@@ -12,10 +12,14 @@ A [list of alumni](https://github.com/maxbiostat/Student_projects/Alumni) is als
 If you're an undergraduate student who (a) likes Statistics and Biology and wants to do Scientific Initiation or (ii) is looking to complete an undergraduate thesis under my supervision but do not have a clear project in mind, there are a few projects listed [**here**](https://github.com/maxbiostat/Student_projects/blob/main/Undergraduate/README.md) that might pique your interest.
 These range from programming for Public Health data analysis to theoretical statistics. So pick your poison and shoot me an email.
 
+---
+
 ### Master's degree
 
 A few projects suitable for a MSc Dissertation (in Applied Mathematics) are listed [**here**](https://github.com/maxbiostat/Student_projects/blob/main/MSc/README.md). Feel free to contact me about them, but know that it is probably best to complete coursework before you start the dissertation.
 The projects all involve graduate-level Statistics and some involve some non-trivial programming.
+
+---
 
 ### PhD
 
