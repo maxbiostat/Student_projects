@@ -92,3 +92,12 @@ The project will analyze a rich set of epidemiological data from the Ebola epide
 References: [Morris et al. 2019](http://www.stat.columbia.edu/~gelman/research/published/bym_article_SSTEproof.pdf) and Chapter 4 of my [PhD thesis](https://github.com/maxbiostat/PhD_Thesis). 
 
 Skills to be developed: JAGS, Stan/C++, spatial statistics.
+
+T3) **Elicitation and prior modelling for rate variation in phylogenetics**
+
+Phylogenetics is a central tool to modern biology and operates by modelling variation in molecular sequences (RNA/DNA/proteins) in order to infer patterns of ancestry between organisms and pathogen variants.
+A crucial model component is  variation in the evolutionary rate across sites in the genome. Moreover, an important but overlooked aspect is that of how to construct prior distributions for quantities of interest in the so-called rate-heterogeneity models. In this project the student will exploit some ideas on principled prior elicitation and will also test the empirical performance of these approaches on real and simulated data. 
+
+References: [Chira & Thomas (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5217074/) and the [SHELF](http://www.tonyohagan.co.uk/shelf/) package. 
+
+Skills to be developed: Statistical phylogenetics, Bayesian statistics, JAVA.
