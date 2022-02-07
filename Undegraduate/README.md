@@ -12,6 +12,8 @@ Neste projeto o aluno vai mostrar rigorosamente este primeiro resultado e també
 
 Habilidades a serem desenvolvidas: filogenética estatística, estatística bayesiana.
 
+---
+
 T2) **A conexão entre regras de pontuação próprias e o teorema da proporcionalidade de verossimilhanças**
 
 Regras de pontuação próprias ([proper scoring rules](https://github.com/maxbiostat/proper_scoring_rules), PSR) são dispositivos matemáticos para avaliar predições probabilísticas que incentivam a honestidade do analista ("forecaster").
@@ -32,6 +34,7 @@ O objetivo final é disponibilizar uma série de bancos de dados curados e conso
 
 Habilidades a serem desenvolvidas: Python, SQL (Big Query), visualização, Saúde Pública.
 
+---
 
 A2) **Medidas de diagnóstico para MCMC com variáveis binárias**
 
@@ -41,6 +44,8 @@ Em [trabalho recente](https://github.com/maxbiostat/presentations/blob/master/PD
 
 Habilidades a serem desenvolvidas: MCMC, R, métodos numéricos, cadeias de Markov de tempo discreto. 
 
+---
+
 A3) **Processos gaussianos convexos e suas aplicações**
 
 Neste projeto estamos interessados em explorar certas propriedades das derivadas de processos gaussianos que permitem a modelagem de funções de interesse a partir das suas derivadas.
@@ -49,7 +54,9 @@ Uma vez desenvolvidos os métodos, vamos investigar uma aplicação nas chamadas
 
 Habilidades a serem desenvolvidas: processos gaussianos; Stan/C++; estatística bayesiana.
 
-A4) Aceleração e truncamento de séries infinitas 
+---
+
+A4) **Aceleração e truncamento de séries infinitas**
 
 Em [Carvalho & Moreira](https://github.com/maxbiostat/truncation_tests) investigamos estratégias de truncamento de séries infinitas para garantir aproximações de séries infinitas com erro controlado. Neste projeto, buscamos estender as técnicas desenvolvidas utilizando técnicas de aceleração de séries (ver pg 300, seção 8.6 de [Small, 2010](https://www.esalq.usp.br/departamentos/lce/arquivos/aulas/2011/LCE5866/Expansions%20and%20Asymptotics%20for%20Statistics.pdf)). Aplicações incluem a estimação do espectro de autocorrelação de uma cadeia de Markov e ainda muitos problemas de marginalização em Estatística.
 
@@ -71,6 +78,7 @@ References: [Gillespie (2017)](https://www.jstor.org/stable/26362189) and the [p
 
 Skills to be developed: Stan/C++, Bayesian statistics.
 
+---
 
 T2) **Variable selection for spatial epidemiology studies**
 
