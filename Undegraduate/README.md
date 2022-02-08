@@ -66,7 +66,7 @@ Habilidades a serem desenvolvidas: análise numérica; R, C++
 
 I prefer that the student writes their project in English for practice.  Here are a few suggestions of projects:
 
-T1) **Power law and difference functions**
+T1)  **Power law and difference functions**
 
 Power law distributions are an important class of statistical models, allowing us to model fenomena which take values over orders of magnitude.
 In this project we are interested in developing a Bayesian approach that uses all of the available data to estimate the parameters of a power law distribution (in particular its scale, `alpha`).
@@ -80,7 +80,7 @@ Skills to be developed: Stan/C++, Bayesian statistics.
 
 ---
 
-T2) **Variable selection for spatial epidemiology studies**
+T2)  **Variable selection for spatial epidemiology studies**
 
 A major problem in real-world applications is discerning which variables are associated (causally or otherwise) with an outcome.
 When many covariates/features are available, the job of finding a set of covariates that parsimoniously "explain" the response is a difficult one.
@@ -93,7 +93,7 @@ References: [Morris et al. 2019](http://www.stat.columbia.edu/~gelman/research/p
 
 Skills to be developed: JAGS, Stan/C++, spatial statistics.
 
-T3) **Elicitation and prior modelling for rate variation in phylogenetics**
+T3)  **Elicitation and prior modelling for rate variation in phylogenetics**
 
 Phylogenetics is a central tool to modern biology and operates by modelling variation in molecular sequences (RNA/DNA/proteins) in order to infer patterns of ancestry between organisms and pathogen variants.
 A crucial model component is  variation in the evolutionary rate across sites in the genome. Moreover, an important but overlooked aspect is that of how to construct prior distributions for quantities of interest in the so-called rate-heterogeneity models. In this project the student will exploit some ideas on principled prior elicitation and will also test the empirical performance of these approaches on real and simulated data. 
