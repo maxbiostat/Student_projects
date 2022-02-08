@@ -15,7 +15,7 @@ These range from programming for Public Health data analysis to theoretical stat
 ### Master's degree
 
 A few projects suitable for a MSc Dissertation (in Applied Mathematics) are listed [**here**](https://github.com/maxbiostat/Student_projects/blob/main/MSc/README.md). Feel free to contact me about them, but know that it is probably best to complete coursework before you start the dissertation.
-The projects all involve graduate-level Statistics and some involve some non-trivial programming.
+The projects all involve graduate-level Statistics and many involve some non-trivial programming.
 
 ---
 
