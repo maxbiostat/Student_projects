@@ -3,7 +3,7 @@ A collection of open research projects for those interested in working with me.
 
 Contact: `lmax DOT fgv AT gmail`
 
-**Working environment**: I am a hands off supervisor with a strong focus on fostering independence and scientific curiosity. Expect to given loads to read and a few 'lectures' on how to do Science properly. I make a point of always being available _via_ email and for pre-booked one-on-one sessions. 
+**Working environment**: I am a hands off supervisor with a strong focus on fostering independence and scientific curiosity. Expect to be given loads to read and a few 'lectures' on how to do Science properly. I make a point of always being available _via_ email and for pre-booked one-on-one sessions. 
 
 ### Undegraduate (Scientific Initiation [IC] and Honours thesis [TCC])
 
