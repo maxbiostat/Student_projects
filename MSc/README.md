@@ -4,6 +4,18 @@ For most of the projects outlined here, you are expected to have taken [Probabil
 
 ## Theory
 
+T1) **What ails the King?**
+
+Concentration areas: Bayesian Statistics.
+
+In [The King Must Die](https://statmodeling.stat.columbia.edu/2017/11/02/king-must-die/), Dan Simpson argues that the Bayesian least absolute shrinkage and selection operator (LASSO) cannot possibly work because its usual prior structure (the Laplace) prior cannot simultaneously accommodate sparsity and large signals. It is also argued that strategies such as the 'Finnish' horseshoe ([Piironen and Vehtari, 2017](https://doi.org/10.1214/17-EJS1337SI)) can remedy this issue. 
+In this project, the student will give a rigorous and inclusive account of sparsity-inducing priors for Bayesian variable selection and will investigate how the claims about the Bayesian LASSO hold up in the correlated case, where covariates are colinear.
+
+References:
+- [Bai, Rockova & George (2021)](http://raybai.net/wp-content/uploads/2021/05/SSL_review.pdf)
+- [Carvalho [not me!], Polson & Scott, 2009](http://proceedings.mlr.press/v5/carvalho09a.html)
+
+
 ## Applications
 
 A1) **Prevalence estimation and causal inference through regression models with uncertain outcomes**
