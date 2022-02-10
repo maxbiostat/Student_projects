@@ -109,6 +109,6 @@ In this project the student will analyse an experimental data set of _Rhodnius p
 
 This is joint work the [Professor Angela Hampshire](https://www.microbiologia.ufrj.br/portal/index.php/pt/43-pos-graduacao/corpo-docente/2017-2020/208-angela-hampshire-de-carvalho-santos-lopes) (UFRJ).
 
-Skills to be developed: Applied Statistics, Bayesian statistics, survival analysis, R.
-
 References: [Carvalho, Struchiner & Bastos (2015)](https://github.com/maxbiostat/papers/blob/master/PAPERS/Carvalho_et_al_2015_EBEB.pdf).
+
+Skills to be developed: Applied Statistics, Bayesian statistics, survival analysis, R.
