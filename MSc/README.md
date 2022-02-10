@@ -18,6 +18,7 @@ The student will be expected to implement and extend the models in Section 7.3 o
 
 References:
 - In addition to the references already given, Lucas Moschen's [honours thesis](https://github.com/lucasmoschen/rds-bayesian-analysis-tcc) is great resource.
+- [This](https://github.com/epiforecasts/inc2prev) repository might come in handy.
 
 ---
 
