@@ -112,3 +112,9 @@ The project will analyze a rich set of epidemiological data from the Ebola epide
 References: [Morris et al. 2019](http://www.stat.columbia.edu/~gelman/research/published/bym_article_SSTEproof.pdf) and Chapter 4 of my [PhD thesis](https://github.com/maxbiostat/PhD_Thesis). 
 
 Skills to be developed: JAGS, Stan/C++, spatial statistics.
+
+A3) **PhyloPosteriorDB: a collection of curated phylogenetic data sets for method development**
+
+Having a set of curated, well-studied and realistic data sets is a great asset for the development of new analytical methods. In particular, Markov Chain Monte Carlo (MCMC) can be challenge to develop and test without a reliable benchmark. Inspired by the [**posteriordb**](https://github.com/stan-dev/posteriordb) project, the student will improve and expand [**this**](https://github.com/maxbiostat/MEP_data) collection of rich, real-world data sets in order to provide the [Phylogenetics community](https://www.phylobabble.org/) with easy-to-use data to check their new methods against. The student will also develop novel memmory-efficient ways of storing large posterior samples of trees that can be accessed and used for further processing. 
+
+Skills to be developed: [BEAST](https://github.com/beast-dev/beast-mcmc), Database programming, Statistical Phylogenetics.
