@@ -12,8 +12,8 @@ In [The King Must Die](https://statmodeling.stat.columbia.edu/2017/11/02/king-mu
 In this project, the student will give a rigorous and inclusive account of sparsity-inducing priors for Bayesian variable selection and will investigate how the claims about the Bayesian LASSO hold up in the correlated case, where covariates are colinear.
 
 References:
-- [Bai, Rockova & George (2021)](http://raybai.net/wp-content/uploads/2021/05/SSL_review.pdf)
-- [Carvalho [not me!], Polson & Scott, 2009](http://proceedings.mlr.press/v5/carvalho09a.html)
+- [Bai, Rockova & George (2021)](http://raybai.net/wp-content/uploads/2021/05/SSL_review.pdf).
+- [Carvalho [not me!], Polson & Scott, 2009](http://proceedings.mlr.press/v5/carvalho09a.html).
 
 
 ## Applications
