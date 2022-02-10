@@ -21,7 +21,7 @@ The projects all involve graduate-level Statistics and many involve some non-tri
 
 ### PhD
 
-Now, if you're a prospective PhD student without a project proposal, please take a look at [**this**](https://github.com/maxbiostat/Student_projects/tree/main/PhD) page to see if anything piques your fancy. And then contact me. If you already have an interesting project you think I could supervise, also feel free to shoot me an email.
+Now, if you're a prospective PhD student without a project proposal, please take a look at [**this**](https://github.com/maxbiostat/Student_projects/blob/main/PhD/README.md) page to see if anything piques your fancy. And then contact me. If you already have an interesting project you think I could supervise, also feel free to shoot me an email.
 
 For PhD-level work I expect a solid theoretical basis, as well as a commitment to the production and maintenance of [Free and open software](https://en.wikipedia.org/wiki/Free_and_open-source_software) and adhrence to the best current practices in [Scientific Reproducibility](https://en.wikipedia.org/wiki/Reproducibility). I also expect a commitment to the absolute highest standards of scholarship and a drive to contribute to the peer-reviewed international published literature. 
 
