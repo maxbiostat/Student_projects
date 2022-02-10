@@ -13,7 +13,7 @@ In this project, the student will give a rigorous and inclusive account of spars
 
 References:
 - [Bai, Rockova & George (2021)](http://raybai.net/wp-content/uploads/2021/05/SSL_review.pdf).
-- [Carvalho [not me!], Polson & Scott, 2009](http://proceedings.mlr.press/v5/carvalho09a.html).
+- [Carvalho [not me!], Polson & Scott, (2009)](http://proceedings.mlr.press/v5/carvalho09a.html).
 
 
 ## Applications
@@ -46,3 +46,18 @@ Another aspect of epidemic surveillance is tracking the effective reproductive n
 In this project, the student will couple the delay-correction nowcasting model of [Bastos et al. (2019)](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.8303) and the Rt estimation methods in the R package [EpiEstim](https://github.com/mrc-ide/EpiEstim) to create a unified framework for accurate Rt calculation by explicitly modelling data misreporting. 
 
 This is joint work with Drs [Leo Bastos](https://lsbastos.github.io/) and [Marcelo Gomes](https://scholar.google.com/citations?user=b018FBIAAAAJ&hl=en&authuser=1&oi=ao). 
+
+A3) **Parsimonious models of pathogen spatial spread: prior modelling and variable selection for phylogeography**
+
+Concentration areas: Biostatistiscs, Statistical Phylogenetics.
+
+Since its introduction in [Lemey et al (2009)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000520), Bayesian phylogeography has become a major tool for assessing the drivers of pathogen spatial spread. 
+In this project the student will be expected to complete two tasks:
+1. Compose a thorough review of the literature on Bayesian phylogeography, along with a curated collection of data sets to be used in further analyses and
+2. Experiments investigating the effect of prior stringency on the resulting inferences, including the set of selected ('significant') covariates.
+
+References:
+
+- [Lemey et al. (2014)](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1003932).
+- [Dudas, Carvalho, et al (2017)](https://www.nature.com/articles/nature22040).
+- Chapter 4 in my [PhD thesis](https://github.com/maxbiostat/PhD_Thesis).
