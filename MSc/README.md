@@ -14,6 +14,7 @@ In this project, the student will give a rigorous and inclusive account of spars
 References:
 - [Bai, Rockova & George (2021)](http://raybai.net/wp-content/uploads/2021/05/SSL_review.pdf).
 - [Carvalho [not me!], Polson & Scott, (2009)](http://proceedings.mlr.press/v5/carvalho09a.html).
+- [Sparsity Blues](https://betanalpha.github.io/assets/case_studies/modeling_sparsity.html) by Michael Betancourt.
 
 
 ## Applications
