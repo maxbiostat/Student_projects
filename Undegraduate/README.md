@@ -107,6 +107,8 @@ T4) **Survival and reproductive analysis of _Rhodnius prolixus_, the Chagas dise
 Chagas disease continues to pose important challenges to Public Health in Brazil. With climate change and temperate zones potentially becoming warmer and more hospitable to the disease's vector, _Rhodnius prolixus_, this might become a global concern.
 In this project the student will analyse an experimental data set of _Rhodnius prolixus_ mortality and fertility (egg production) in various temperatures and fit state-of-the-art survival and dynamic regression models in order to help understand the potential impact of climate change on the suitability of certain areas to the spread and stablishment of _Rhodnius_ populations.
 
+This is joint work the [Professor Angela Hampshire](https://www.microbiologia.ufrj.br/portal/index.php/pt/43-pos-graduacao/corpo-docente/2017-2020/208-angela-hampshire-de-carvalho-santos-lopes) (UFRJ).
+
 Skills to be developed: Applied Statistics, Bayesian statistics, survival analysis, R.
 
 References: [Carvalho, Struchiner & Bastos (2015)](https://github.com/maxbiostat/papers/blob/master/PAPERS/Carvalho_et_al_2015_EBEB.pdf).
