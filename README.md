@@ -31,4 +31,4 @@ For PhD-level work I expect a solid theoretical basis, as well as a commitment t
 
 - 2021-  [João Pedro Marciano](https://github.com/JPMarciano) (IC), "The space of time-calibrated phylogenies".
 
-A [list of past students](https://github.com/maxbiostat/Student_projects/Alumni) is also available. 
+A [list of past students](https://github.com/maxbiostat/Student_projects/tree/main/Alumni#readme) is also available. 
