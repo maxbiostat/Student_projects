@@ -80,7 +80,27 @@ Skills to be developed: Stan/C++, Bayesian statistics.
 
 ---
 
-T2)  **Variable selection for spatial epidemiology studies**
+T2)  **Elicitation and prior modelling for rate variation in phylogenetics**
+
+Phylogenetics is a central tool to modern biology and operates by modelling variation in molecular sequences (RNA/DNA/proteins) in order to infer patterns of ancestry between organisms and pathogen variants.
+A crucial model component is  variation in the evolutionary rate across sites in the genome. Moreover, an important but overlooked aspect is that of how to construct prior distributions for quantities of interest in the so-called rate-heterogeneity models. In this project the student will exploit some ideas on principled prior elicitation and will also test the empirical performance of these approaches on real and simulated data. 
+
+References: [Chira & Thomas (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5217074/) and the [SHELF](http://www.tonyohagan.co.uk/shelf/) package. 
+
+Skills to be developed: Statistical phylogenetics, Bayesian statistics, JAVA.
+
+A1) **Survival and reproductive analysis of _Rhodnius prolixus_, the Chagas disease vector**
+
+Chagas disease continues to pose important challenges to Public Health in Brazil. With climate change and temperate zones potentially becoming warmer and more hospitable to the disease's vector, _Rhodnius prolixus_, this might become a global concern.
+In this project the student will analyse an experimental data set of _Rhodnius prolixus_ mortality and fertility (egg production) in various temperatures and fit state-of-the-art survival and dynamic regression models in order to help understand the potential impact of climate change on the suitability of certain areas to the spread and stablishment of _Rhodnius_ populations.
+
+This is joint work the [Professor Angela Hampshire](https://www.microbiologia.ufrj.br/portal/index.php/pt/43-pos-graduacao/corpo-docente/2017-2020/208-angela-hampshire-de-carvalho-santos-lopes) (UFRJ).
+
+References: [Carvalho, Struchiner & Bastos (2015)](https://github.com/maxbiostat/papers/blob/master/PAPERS/Carvalho_et_al_2015_EBEB.pdf).
+
+Skills to be developed: Applied Statistics, Bayesian statistics, survival analysis, R.
+
+A2)  **Variable selection for spatial epidemiology studies**
 
 A major problem in real-world applications is discerning which variables are associated (causally or otherwise) with an outcome.
 When many covariates/features are available, the job of finding a set of covariates that parsimoniously "explain" the response is a difficult one.
@@ -92,23 +112,3 @@ The project will analyze a rich set of epidemiological data from the Ebola epide
 References: [Morris et al. 2019](http://www.stat.columbia.edu/~gelman/research/published/bym_article_SSTEproof.pdf) and Chapter 4 of my [PhD thesis](https://github.com/maxbiostat/PhD_Thesis). 
 
 Skills to be developed: JAGS, Stan/C++, spatial statistics.
-
-T3)  **Elicitation and prior modelling for rate variation in phylogenetics**
-
-Phylogenetics is a central tool to modern biology and operates by modelling variation in molecular sequences (RNA/DNA/proteins) in order to infer patterns of ancestry between organisms and pathogen variants.
-A crucial model component is  variation in the evolutionary rate across sites in the genome. Moreover, an important but overlooked aspect is that of how to construct prior distributions for quantities of interest in the so-called rate-heterogeneity models. In this project the student will exploit some ideas on principled prior elicitation and will also test the empirical performance of these approaches on real and simulated data. 
-
-References: [Chira & Thomas (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5217074/) and the [SHELF](http://www.tonyohagan.co.uk/shelf/) package. 
-
-Skills to be developed: Statistical phylogenetics, Bayesian statistics, JAVA.
-
-T4) **Survival and reproductive analysis of _Rhodnius prolixus_, the Chagas disease vector**
-
-Chagas disease continues to pose important challenges to Public Health in Brazil. With climate change and temperate zones potentially becoming warmer and more hospitable to the disease's vector, _Rhodnius prolixus_, this might become a global concern.
-In this project the student will analyse an experimental data set of _Rhodnius prolixus_ mortality and fertility (egg production) in various temperatures and fit state-of-the-art survival and dynamic regression models in order to help understand the potential impact of climate change on the suitability of certain areas to the spread and stablishment of _Rhodnius_ populations.
-
-This is joint work the [Professor Angela Hampshire](https://www.microbiologia.ufrj.br/portal/index.php/pt/43-pos-graduacao/corpo-docente/2017-2020/208-angela-hampshire-de-carvalho-santos-lopes) (UFRJ).
-
-References: [Carvalho, Struchiner & Bastos (2015)](https://github.com/maxbiostat/papers/blob/master/PAPERS/Carvalho_et_al_2015_EBEB.pdf).
-
-Skills to be developed: Applied Statistics, Bayesian statistics, survival analysis, R.
