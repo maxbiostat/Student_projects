@@ -16,6 +16,7 @@ References:
 - [Carvalho [not me!], Polson & Scott, (2009)](http://proceedings.mlr.press/v5/carvalho09a.html).
 - [Sparsity Blues](https://betanalpha.github.io/assets/case_studies/modeling_sparsity.html) by Michael Betancourt.
 
+---
 
 ## Applications
 
@@ -47,6 +48,8 @@ Another aspect of epidemic surveillance is tracking the effective reproductive n
 In this project, the student will couple the delay-correction nowcasting model of [Bastos et al. (2019)](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.8303) and the Rt estimation methods in the R package [EpiEstim](https://github.com/mrc-ide/EpiEstim) to create a unified framework for accurate Rt calculation by explicitly modelling data misreporting. 
 
 This is joint work with Drs [Leo Bastos](https://lsbastos.github.io/) and [Marcelo Gomes](https://scholar.google.com/citations?user=b018FBIAAAAJ&hl=en&authuser=1&oi=ao). 
+
+---
 
 A3) **Parsimonious models of pathogen spatial spread: prior modelling and variable selection for phylogeography**
 
