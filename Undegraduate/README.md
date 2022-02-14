@@ -60,7 +60,22 @@ A4) **Aceleração e truncamento de séries infinitas**
 
 Em [Carvalho & Moreira](https://github.com/maxbiostat/truncation_tests) investigamos estratégias de truncamento de séries infinitas para garantir aproximações de séries infinitas com erro controlado. Neste projeto, buscamos estender as técnicas desenvolvidas utilizando técnicas de aceleração de séries (ver pg 300, seção 8.6 de [Small, 2010](https://www.esalq.usp.br/departamentos/lce/arquivos/aulas/2011/LCE5866/Expansions%20and%20Asymptotics%20for%20Statistics.pdf)). Aplicações incluem a estimação do espectro de autocorrelação de uma cadeia de Markov e ainda muitos problemas de marginalização em Estatística.
 
+Trabalho em conjunto com [Guido Moreira](https://github.com/GuidoAMoreira).
+
 Habilidades a serem desenvolvidas: análise numérica; R, C++.
+
+---
+
+A5) **sumPy: truncamento numericamente estável de séries infinitas em Python**
+
+Neste projeto queremos portar e expandir as funcionalidades do pacote do R [**sumR**](https://github.com/GuidoAMoreira/sumR) na linguagem Python. A ideia é reproduzir a estrutura do pacote R, criando _wrappers_ para as funções em baixo nível (já implementadas em C). Queremos também adicionar _features_ como a capacidade de tratar séries que podem ser negativas.
+
+Trabalho em conjunto com [Guido Moreira](https://github.com/GuidoAMoreira).
+
+Habilidades a serem desenvolvidas: programação científica em Python, e C.
+
+---
+
 
 # Honours thesis (TCC)
 
