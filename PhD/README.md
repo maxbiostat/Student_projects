@@ -33,5 +33,25 @@ References:
 - [My MCQMC 2020 presentation](https://www.youtube.com/watch?v=h9bWRQ6aeKA).
 
 
-Expected skills: strong mathematical statistics and computational statistics background. Competent JAVA programming. 
+Expected skills: strong mathematical statistics and computational statistics background. Competent JAVA programming.
 
+---
+
+
+P3) **Balancing local and global exploration for MCMC in treespace**
+
+Concentration areas:  Applied Probability, Statistical Phylogenetics, Markov Chain Monte Carlo.
+
+Markov chain Monte Carlo is the main tool for the treatment of Bayesian inference problems in phylogenetics. The main impediment to efficient exploration of the ambient space seems to be the discrete tree structure. The aim of this project is to bring recent developments in the field of MCMC for discrete spaces to the phylogenetics realm. In particular, we are concerned with complicated, real-world time-calibrated trees. The natural questions to ask are how do we find multiple modes and how do we explore them. Finding a balance between mode-jumping and mode exploration is crucial for efficiency. Two major questions present themselves: (i) how do we find efficient mode-jumping and local proposals? And (ii) what is the role of parallel tempering-type strategies in facilitating mode-finding?
+
+
+References:
+
+- [Zanella (2017)](https://arxiv.org/pdf/1711.07424.pdf).
+- Chapters 1-3 of my [PhD thesis](https://github.com/maxbiostat/PhD_Thesis).
+- [Power & Goldman (2019)](https://arxiv.org/pdf/1912.04681.pdf)
+- [Syed et al. (2021)](https://arxiv.org/pdf/1905.02939.pdf). 
+
+Expected skills: strong probability and computational statistics background. Competent R or C++ or Python programming. 
+
+---
