@@ -22,11 +22,11 @@ T2) **Combining densities under non-invertible transforms**
 
 Concentration areas: Theoretical Statistics, Functional Analysis, Bayesian Statistics.
 
-One of the questions left open by [Carvalho et al. (2022)](https://arxiv.org/abs/1502.04206) is: what happens when your experts give you opinions about a quantity in the space `X but you're interested in `g(X)` where `g`is non-invertible? In this project we seek to investigate how one would go about combining probability densities in this situation. One approach is to minimise the KL distance in transformed space. This however needs theoretical grounding and also a study of the conditions necessary for the pushforward measure to have a density. The student will be required to prepare a thorough treatment of pushforward probability measures and then prove a few results concerning the interaction of measurable transformations and the logarithmic pooling operator.
+One of the questions left open by [Carvalho et al. (2022)](https://arxiv.org/abs/1502.04206) is: "what happens when your experts give you opinions about a quantity in the space `X but you're interested in `g(X)` where `g`is non-invertible?". In this project we seek to investigate how one would go about combining probability densities in this situation. One approach is to minimise the KL distance in transformed space, but this needs theoretical grounding and also a study of the conditions necessary for the pushforward measure to have a density. The student will be required to prepare a thorough treatment of pushforward probability measures and then prove a few results concerning the interaction of measurable transformations and the logarithmic pooling operator.
 
 References:
-- Billingsley's [Probability and Measure](https://www.colorado.edu/amath/sites/default/files/attached-files/billingsley.pdf)
-- [Poole and Raftery (2000)](https://www.stat.washington.edu/raftery/Research/PDF/poole2000.pdf)
+- Billingsley's [Probability and Measure](https://www.colorado.edu/amath/sites/default/files/attached-files/billingsley.pdf).
+- [Poole and Raftery (2000)](https://www.stat.washington.edu/raftery/Research/PDF/poole2000.pdf).
 
 ---
 
