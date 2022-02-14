@@ -26,7 +26,7 @@ One of the questions left open by [Carvalho et al. (2022)](https://arxiv.org/abs
 
 References:
 - Billingsley's [Probability and Measure](https://www.colorado.edu/amath/sites/default/files/attached-files/billingsley.pdf).
-- [Poole and Raftery (2000)](https://www.stat.washington.edu/raftery/Research/PDF/poole2000.pdf).
+- Section 3.3 in [Poole and Raftery (2000)](https://www.stat.washington.edu/raftery/Research/PDF/poole2000.pdf).
 
 ---
 
