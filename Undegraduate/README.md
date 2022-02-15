@@ -54,6 +54,8 @@ Uma vez desenvolvidos os métodos, vamos investigar uma aplicação nas chamadas
 
 Habilidades a serem desenvolvidas: processos gaussianos; Stan/C++; estatística bayesiana.
 
+Referências: [Riutort-Mayol et al. (2019)](https://arxiv.org/pdf/1911.03454.pdf).
+
 ---
 
 A4) **Aceleração e truncamento de séries infinitas**
