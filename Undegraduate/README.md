@@ -126,7 +126,7 @@ The project will analyze a rich set of epidemiological data from the Ebola epide
 
 References: [Morris et al. 2019](http://www.stat.columbia.edu/~gelman/research/published/bym_article_SSTEproof.pdf) and Chapter 4 of my [PhD thesis](https://github.com/maxbiostat/PhD_Thesis). 
 
-Skills to be developed: JAGS, Stan/C++, spatial statistics.
+Skills to be developed: [NIMBLE](https://r-nimble.org/), Stan/C++, spatial statistics.
 
 A3) **PhyloPosteriorDB: a collection of curated phylogenetic data sets for method development**
 
