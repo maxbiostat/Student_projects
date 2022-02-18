@@ -77,3 +77,23 @@ References:
 - [Lemey et al. (2014)](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1003932).
 - [Dudas, Carvalho, et al (2017)](https://www.nature.com/articles/nature22040).
 - Chapter 4 in my [PhD thesis](https://github.com/maxbiostat/PhD_Thesis).
+
+---
+
+A4) **Large effects in a sea of irrelevance: novel techniques for Bayesian sparse regression**
+
+Concentration areas: Bayesian statistics, variable selection.
+
+In many practical applications, especially in Biology and Medicine, one is confronted with the task of identifying relevant predictors for an outcome of interest out of a set of thousands or even hundreds of thousands of possible predictors. Sparsity-inducing priors are the Bayesian tool that allow us to identify those predictors that have large effects/associations with the outcome of interest without sacrificing predictive ability. The goal of this project is to extend the review and experiments of [van Erp, Oberski & Mulder (2019)](https://osf.io/cg8fq/) to incorporate novel computational improvements and also specifically study the issue of multicolinearity. When predictors are correlated in non-trival ways, the task of identifying a small set that parsimoniously predict the outcome is made even more difficult.
+The project will work along two axes: (i) realistically simulating sparse-but-correlated design matrices and (ii) developing memory-efficient implementations that scale with dimension.
+This is joint work with [Aki Vehtari](https://users.aalto.fi/~ave/).
+
+References:
+
+- Peltola, T., Marttinen, P. and Vehtari, A. (2012) ‘Finite adaptation and multistep moves in the metropolis-hastings algorithm for variable selection in genome-wide association analysis’, PloS one, 7(11), p. e49445. doi: doi.org/10.1371/journal.pone.0049445.
+
+- Piironen, J., Paasiniemi, M. and Vehtari, A. (2020) ‘Projective inference in high-dimensional problems: Prediction and feature selection’, Electronic Journal of Statistics, 14(1), pp. 2155–2197.
+
+- Piironen, J. and Vehtari, A. (2017a) ‘Comparison of Bayesian predictive methods for model selection’, Statistics and Computing, 27(3), pp. 711–735. doi: 10.1007/s11222-016-9649-y.
+
+- Piironen, J. and Vehtari, A. (2017b) ‘Sparsity information and regularization in the horseshoe and other shrinkage priors’, Electronic journal of Statistics, 11(2), pp. 5018–5051. doi: 10.1214/17-EJS1337SI.
