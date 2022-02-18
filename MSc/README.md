@@ -85,7 +85,9 @@ A4) **Large effects in a sea of irrelevance: novel techniques for Bayesian spars
 Concentration areas: Bayesian statistics, variable selection.
 
 In many practical applications, especially in Biology and Medicine, one is confronted with the task of identifying relevant predictors for an outcome of interest out of a set of thousands or even hundreds of thousands of possible predictors. Sparsity-inducing priors are the Bayesian tool that allow us to identify those predictors that have large effects/associations with the outcome of interest without sacrificing predictive ability. The goal of this project is to extend the review and experiments of [van Erp, Oberski & Mulder (2019)](https://osf.io/cg8fq/) to incorporate novel computational improvements and also specifically study the issue of multicolinearity. When predictors are correlated in non-trival ways, the task of identifying a small set that parsimoniously predict the outcome is made even more difficult.
+
 The project will work along two axes: (i) realistically simulating sparse-but-correlated design matrices and (ii) developing memory-efficient implementations that scale with dimension.
+
 This is joint work with [Aki Vehtari](https://users.aalto.fi/~ave/).
 
 References:
