@@ -6,7 +6,8 @@ Concentration areas: probability, theoretical statistics, model combination.
 As the COVID-19 pandemic made even more clear, having reliable prediction models is of utmost importance for decision. In this project the candidate will be expected to exploit the results of [Carvalho et al. (2022)](https://arxiv.org/abs/1502.04206) to study novel ensemble formation techniques using logarithmic pooling. 
 Special attention will be paid to spatio-temporal epidemic models for COVID-19, Influenza, Dengue and Zika.
 The project will involve theoretical and computational aspects. 
-It is joint work with Drs. [Alvaro Faria](https://www.open.ac.uk/research/people/aefj2) and [Fadlalla Elfadaly](https://stem.open.ac.uk/people/fe428) from the Open Universty in the UK. 
+
+This is joint work with Drs. [Alvaro Faria](https://www.open.ac.uk/research/people/aefj2) and [Fadlalla Elfadaly](https://stem.open.ac.uk/people/fe428) from the Open Universty in the UK. 
 
 References:
 
