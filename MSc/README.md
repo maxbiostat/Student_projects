@@ -92,10 +92,8 @@ This is joint work with [Aki Vehtari](https://users.aalto.fi/~ave/).
 
 References:
 
-- Peltola, T., Marttinen, P. and Vehtari, A. (2012) ‘Finite adaptation and multistep moves in the metropolis-hastings algorithm for variable selection in genome-wide association analysis’, PloS one, 7(11), p. e49445. doi: doi.org/10.1371/journal.pone.0049445.
+- [Peltola et al. (2012)](https://pubmed.ncbi.nlm.nih.gov/23166669/).
 
-- Piironen, J., Paasiniemi, M. and Vehtari, A. (2020) ‘Projective inference in high-dimensional problems: Prediction and feature selection’, Electronic Journal of Statistics, 14(1), pp. 2155–2197.
-
-- Piironen, J. and Vehtari, A. (2017a) ‘Comparison of Bayesian predictive methods for model selection’, Statistics and Computing, 27(3), pp. 711–735. doi: 10.1007/s11222-016-9649-y.
-
-- Piironen, J. and Vehtari, A. (2017b) ‘Sparsity information and regularization in the horseshoe and other shrinkage priors’, Electronic journal of Statistics, 11(2), pp. 5018–5051. doi: 10.1214/17-EJS1337SI.
+- [Piironen, Paasiniemi and Vehtari(2020)](https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-14/issue-1/Projective-inference-in-high-dimensional-problems--Prediction-and-feature/10.1214/20-EJS1711.full).
+- [Piironen and Vehtari (2017a)](https://arxiv.org/abs/1503.08650).
+- [Piironen and Vehtari (2017b)](https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-11/issue-2/Sparsity-information-and-regularization-in-the-horseshoe-and-other-shrinkage/10.1214/17-EJS1337SI.full).
