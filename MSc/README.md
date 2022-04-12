@@ -94,6 +94,6 @@ References:
 
 - [Peltola et al. (2012)](https://pubmed.ncbi.nlm.nih.gov/23166669/).
 
-- [Piironen, Paasiniemi and Vehtari(2020)](https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-14/issue-1/Projective-inference-in-high-dimensional-problems--Prediction-and-feature/10.1214/20-EJS1711.full).
+- [Piironen, Paasiniemi and Vehtari (2020)](https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-14/issue-1/Projective-inference-in-high-dimensional-problems--Prediction-and-feature/10.1214/20-EJS1711.full).
 - [Piironen and Vehtari (2017a)](https://arxiv.org/abs/1503.08650).
 - [Piironen and Vehtari (2017b)](https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-11/issue-2/Sparsity-information-and-regularization-in-the-horseshoe-and-other-shrinkage/10.1214/17-EJS1337SI.full).
