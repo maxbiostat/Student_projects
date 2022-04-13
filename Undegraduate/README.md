@@ -74,7 +74,7 @@ Neste projeto queremos portar e expandir as funcionalidades do pacote do R [**su
 
 Trabalho em conjunto com [Guido Moreira](https://github.com/GuidoAMoreira).
 
-Habilidades a serem desenvolvidas: programação científica em Python, e C.
+Habilidades a serem desenvolvidas: programação científica em Python e C.
 
 ---
 
