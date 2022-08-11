@@ -115,6 +115,13 @@ This is joint work with [Diego Mesquita](https://weakly-informative.github.io/).
 
 Skills to be developed: Computational statistics, Bayesian statistics.
 
+T4) **Studying of phylogenetic distances for time-calibrated trees**
+Time-calibrated phylogenies are central objects in Molecular Epidemiology and Phylodynamics.
+Computing distances between trees is fundamental task in the analysis of samples of trees ([Smith, 2022](https://academic.oup.com/sysbio/article/71/5/1255/6486431)), but there is no canonical distance in the space of phylogenies.
+Faced with many choices of metric, what is the analyst to do? In this project the student will start by investigating an easily computable metric on phylogenies proposed by [Kendall & Coljin (2015)](https://arxiv.org/abs/1507.05211). The KC metric takes a convex combination `lambda*TD + (1-lambda)*BD`, where `TD` and `BD`are "topological" and "branch length" distances, respectively. The task is to figure out how to calibrate the free parameter `lambda` automatically such that distances capture important features.
+
+Skills to be developed: Computational statistics, Statistical phylogenetics.
+
 
 A1) **Survival and reproductive analysis of _Rhodnius prolixus_, the Chagas disease vector**
 
