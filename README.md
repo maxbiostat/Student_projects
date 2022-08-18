@@ -30,7 +30,7 @@ For PhD-level work I expect a solid theoretical basis, as well as a commitment t
 ### Current students
 
 - 2021-  [João Pedro Marciano](https://github.com/JPMarciano) (TCC), "The space of time-calibrated phylogenies";
-- 2022-  [Isaque Pim](https://github.com/isaquepim) (TCC), "{Seleção de variáveis por busca estocástica para epidemiologia espacial";
+- 2022-  [Isaque Pim](https://github.com/isaquepim) (TCC), "Seleção de variáveis por busca estocástica para epidemiologia espacial";
 - 2022-  [Marcos Antônio Alves](https://br.linkedin.com/in/marcos-antonio-alves-?original_referer=https%3A%2F%2Fwww.google.com%2F) (TCC), "Tornando o DATASUS mais acessível";
 - 2022-  [Pedro Dall'Antonia](https://github.com/pedrodall) (TCC), "Causal Inference and Machine Learning".
 
