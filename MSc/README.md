@@ -28,6 +28,10 @@ References:
 - Billingsley's [Probability and Measure](https://www.colorado.edu/amath/sites/default/files/attached-files/billingsley.pdf).
 - Section 3.3 in [Poole and Raftery (2000)](https://www.stat.washington.edu/raftery/Research/PDF/poole2000.pdf).
 
+T3) **Mixing time in quasi-lumpable Markov chains**
+
+Many real-world applications of Markov chains Monte Carlo (MCMC) techniques involve huge-dimensional (discrete) spaces. A way to mitigate this "curse of dimensionality" is to project the original space onto  one of a much smaller dimension. This projection might, however, lead to the loss of the Markov property enjoyed by the original process. The concept of lumpability ([Buchholz, 2016](https://www.cambridge.org/core/journals/journal-of-applied-probability/article/abs/exact-and-ordinary-lumpability-in-finite-markov-chains/2DC748F09D80BEEB03CCF18036E149D7)) formalises the notion of presenving Markovianity under a given partition of the state space. The question remains, however, as to how a lower-dimensional projection might affect the mixing time of the projected chain. In this project the student will investigate how to relate the mixing time of the original and lumped chains and how this can lead (or not) to faster convergence. 
+
 ---
 
 ## Applications
