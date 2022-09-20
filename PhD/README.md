@@ -34,7 +34,7 @@ References:
 - [My MCQMC 2020 presentation](https://www.youtube.com/watch?v=h9bWRQ6aeKA).
 
 
-Expected skills: strong mathematical statistics and computational statistics background. Competent JAVA programming.
+Expected skills: strong mathematical statistics and computational statistics background. Competent JAVA and/or Julia programming.
 
 ---
 
