@@ -25,18 +25,7 @@ Habilidades a serem desenvolvidas: estatística teórica.
 
 ## Aplicações
 
-A1) **Tornando o DATASUS mais acessível**
-
-A crise da COVID-19 trouxe à tona a necessidade de dados públicos confiáveis e de fácil acesso para o auxílio à tomada de decisão.
-Neste projeto o aluno vai utilizar a biblioteca [PySUS](https://github.com/AlertaDengue/PySUS) para extrair dados das bases públicas do Ministério da Saúde e do IBGE para gerar tabelas e visualizações de interesse.
-Isso inclui dados de nascimentos, mortalidade, internações e atendimento ambulatorial.
-O objetivo final é disponibilizar uma série de bancos de dados curados e consolidados que sejam de fácil consulta para profissionais de saúde e epidemiologistas.
-
-Habilidades a serem desenvolvidas: Python, SQL (Big Query), visualização, Saúde Pública.
-
----
-
-A2) **Medidas de diagnóstico para MCMC com variáveis binárias**
+A1) **Medidas de diagnóstico para MCMC com variáveis binárias**
 
 Métodos de cadeias de Markov Monte Carlo (MCMC) constituem uma classe extremamente útil de métodos numéricos, com aplicações todas as áreas da estatística. A correta aplicação destes métodos depende, no entanto, depende de diagnosticar problemas de convergência e performance. 
 Conquanto para variáveis contínuas existam várias medidas diagnósticas bem estabelecidas, para variáveis binárias ou categóricas o conjunto de ferramentas disponíveis é muito menor.
@@ -46,19 +35,7 @@ Habilidades a serem desenvolvidas: MCMC, R, métodos numéricos, cadeias de Mark
 
 ---
 
-A3) **Processos gaussianos convexos e suas aplicações**
-
-Neste projeto estamos interessados em explorar certas propriedades das derivadas de processos gaussianos que permitem a modelagem de funções de interesse a partir das suas derivadas.
-Em particular, queremos estender resultados recentes que empregam emulação de funções para resolver os chamados problemas duplamente intratáveis.
-Uma vez desenvolvidos os métodos, vamos investigar uma aplicação nas chamadas [normalised power priors](https://onlinelibrary.wiley.com/doi/10.1002/sim.9124), que são muito utilizadas na análise de ensaios clínicos.
-
-Habilidades a serem desenvolvidas: processos gaussianos; Stan/C++; estatística bayesiana.
-
-Referências: [Riutort-Mayol et al. (2019)](https://arxiv.org/pdf/1911.03454.pdf).
-
----
-
-A4) **Aceleração e truncamento de séries infinitas**
+A2) **Aceleração e truncamento de séries infinitas**
 
 Em [Carvalho & Moreira (2022)](https://arxiv.org/abs/2202.06121) investigamos estratégias de truncamento de séries infinitas para garantir aproximações de séries infinitas com erro controlado. Neste projeto, buscamos estender as técnicas desenvolvidas utilizando técnicas de aceleração de séries (ver pg 300, seção 8.6 de [Small, 2010](https://www.esalq.usp.br/departamentos/lce/arquivos/aulas/2011/LCE5866/Expansions%20and%20Asymptotics%20for%20Statistics.pdf)). Aplicações incluem a estimação do espectro de autocorrelação de uma cadeia de Markov e ainda muitos problemas de marginalização em Estatística.
 
@@ -68,7 +45,7 @@ Habilidades a serem desenvolvidas: análise numérica; R, C++.
 
 ---
 
-A5) **sumPy: truncamento numericamente estável de séries infinitas em Python**
+A3) **sumPy: truncamento numericamente estável de séries infinitas em Python**
 
 Neste projeto queremos portar e expandir as funcionalidades do pacote do R [**sumR**](https://github.com/GuidoAMoreira/sumR) na linguagem Python. A ideia é reproduzir a estrutura do pacote R, criando _wrappers_ para as funções em baixo nível (já implementadas em C). Queremos também adicionar _features_ como a capacidade de tratar séries que podem ser negativas.
 
@@ -77,7 +54,6 @@ Trabalho em conjunto com [Guido Moreira](https://github.com/GuidoAMoreira).
 Habilidades a serem desenvolvidas: programação científica em Python e C.
 
 ---
-
 
 # Honours thesis (TCC)
 
@@ -106,18 +82,7 @@ References: [Chira & Thomas (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PM
 
 Skills to be developed: Statistical phylogenetics, Bayesian statistics, JAVA.
 
-T3) **Your best bad prior: bridging computability and model accuracy in Bayesian statistics**
-
-Bayesian inference is amazing. It is also very computationally demanding. Sometimes the gap between the models we want to fit and the models we can actually fit seems like a chasm.
-In this project we are concerned with post inference prior swapping ([Neiswanger & Eric Xing (2017)](https://arxiv.org/abs/1606.00787)), in particular we are concerned with the following question: suppose you would like to compute the posterior `p(theta|y) = l(y|theta)q(theta)/m(y)`, but the computational machinery currently available to you is not able to accurately compute expectations of a class of functions `H` with respect to `p`. The questions  are then: (i) how to pick a member `w` from the set `W` of _computable_ priors such that `p_app(theta|y) = l(y|theta)w(theta)/m_app(y)` is the closest it can be to  `p(theta|y)`and (ii) how to modify samples from `p_app(theta|y)` in order to compute `E_p[h]` as accurately as possible.
-
-References: Maybe [ppbo](https://github.com/hhau/pbbo) could be of some help.
-
-This is joint work with [Diego Mesquita](https://weakly-informative.github.io/).
-
-Skills to be developed: Computational statistics, Bayesian statistics.
-
-T4) **Studying phylogenetic distances for time-calibrated trees**
+T3) **Studying phylogenetic distances for time-calibrated trees**
 Time-calibrated phylogenies are central objects in Molecular Epidemiology and Phylodynamics.
 Computing distances between trees is fundamental task in the analysis of samples of trees ([Smith, 2022](https://academic.oup.com/sysbio/article/71/5/1255/6486431)), but there is no canonical distance in the space of phylogenies.
 Faced with many choices of metric, what is the analyst to do? In this project the student will start by investigating an easily computable metric on phylogenies proposed by [Kendall & Coljin (2015)](https://arxiv.org/abs/1507.05211). The KC metric takes a convex combination `lambda*TD + (1-lambda)*BD`, where `TD` and `BD`are "topological" and "branch length" distances, respectively. The task is to figure out how to calibrate the free parameter `lambda` automatically such that distances capture important features.
@@ -136,26 +101,13 @@ References: [Carvalho, Struchiner & Bastos (2015)](https://github.com/maxbiostat
 
 Skills to be developed: Applied Statistics, Bayesian statistics, survival analysis, R.
 
-A2)  **Variable selection for spatial epidemiology studies**
-
-A major problem in real-world applications is discerning which variables are associated (causally or otherwise) with an outcome.
-When many covariates/features are available, the job of finding a set of covariates that parsimoniously "explain" the response is a difficult one.
-In this project we are interested in implementing and evaluating variable selection strategies in the context of epidemiological studies, in order to understand the factors that influence the spatial dynamics of the disease.
-For this, we will study a stochastic search variable selection strategy (SSVS) coupled to a Besag-York-Molié (BYM) spatial model.
-In particular, we will adapt an efficient marginalized [implementation](https://mc-stan.org/users/documentation/case-studies/icar_stan.html) in the Stan language.
-The project will analyze a rich set of epidemiological data from the Ebola epidemic in West Africa between 2013 and 2016.
-
-References: [Morris et al. 2019](http://www.stat.columbia.edu/~gelman/research/published/bym_article_SSTEproof.pdf) and Chapter 4 of my [PhD thesis](https://github.com/maxbiostat/PhD_Thesis). 
-
-Skills to be developed: [NIMBLE](https://r-nimble.org/), Stan/C++, spatial statistics.
-
-A3) **PhyloPosteriorDB: a collection of curated phylogenetic data sets for method development**
+A2) **PhyloPosteriorDB: a collection of curated phylogenetic data sets for method development**
 
 Having a set of curated, well-studied and realistic data sets is a great asset for the development of new analytical methods. In particular, Markov Chain Monte Carlo (MCMC) can be challenge to develop and test without a reliable benchmark. Inspired by the [**posteriordb**](https://github.com/stan-dev/posteriordb) project, the student will improve and expand [**this**](https://github.com/maxbiostat/MEP_data) collection of rich, real-world data sets in order to provide the [Phylogenetics community](https://www.phylobabble.org/) with easy-to-use data to check their new methods against. The student will also develop novel memmory-efficient ways of storing large posterior samples of trees that can be accessed and used for further processing. 
 
 Skills to be developed: [BEAST](https://github.com/beast-dev/beast-mcmc), Database programming, Statistical Phylogenetics.
 
-A4) **Rao-Blackwellising Bayesian Stochastic Search Variable Selection**
+A3) **Rao-Blackwellising Bayesian Stochastic Search Variable Selection**
 
 In statistical applications with limited data, it is important to enforce _regularisation_, that is to encode parsimony into the modelling process so that our models do not overfit the data and lose predictive power. Moreover, it is important to encode _sparsity_, that is the notion that big effects are few and far between, floating in a sea of irrelevance. In this project, we will return to basics and give the **Bayesian Stochastic Search Variable Selection (BSSVS)** model of [George & Mcculloch (1993)](https://people.eecs.berkeley.edu/~russell/classes/cs294/f05/papers/george+mcculloch-1993.pdf) a modern spin. In particular, we will marginalise over the discrete predictor assigments, effectively providing a Rao-Blackwellised version of the model. Implementation will be done in the [Stan](https://mc-stan.org/) probabilistic programming language. In particular, we will investigate how to exploit massive parallelisation in the form of the [`reduce_sum`](https://mc-stan.org/docs/2_23/stan-users-guide/reduce-sum.html) in order to speed things up.
 
