@@ -7,7 +7,7 @@ Contact: `lmax DOT fgv AT gmail`
 
 ### Undegraduate (Scientific Initiation [IC] and Honours thesis [TCC])
 
-If you're an undergraduate student who (a) likes Statistics and Biology and wants to do Scientific Initiation or (b) is looking to complete an undergraduate thesis under my supervision but do not have a clear project in mind, there are a few projects listed [**here**](https://github.com/maxbiostat/Student_projects/blob/main/Undegraduate/README.md) that might pique your interest.
+If you're an undergraduate student who (a) likes Statistics and Biology and wants to do Scientific Initiation and/or (b) is looking to complete an undergraduate thesis under my supervision but do not have a clear project in mind, there are a few projects listed [**here**](https://github.com/maxbiostat/Student_projects/blob/main/Undegraduate/README.md) that might pique your interest.
 These range from programming for Public Health data analysis to theoretical statistics. So pick your poison and shoot me an email.
 
 ---
