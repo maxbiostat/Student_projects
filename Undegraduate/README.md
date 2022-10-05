@@ -53,6 +53,15 @@ Trabalho em conjunto com [Guido Moreira](https://github.com/GuidoAMoreira).
 
 Habilidades a serem desenvolvidas: programação científica em Python e C.
 
+A4) **Análise conjunta de sensibilidade e especificidade de testes diagnósticos**
+
+Testes diagnósticos em geral são imperfeitos, isto é, detectam a condição de interesse com certas características de operação (sensibilidade e especificidade). Neste projeto vamos coletar e analisar dados de meta-análises sob diferentes modelos para a distribuição conjunta da sensibilidade e especificidade de testes diagnósticos para doenças. Vamos testar modelos beta bivariados e baseados em variáveis latentes gaussianas.
+O objetivo final é entender que modelos melhor se adequam aos variados tipos de dados e como utilizar as distribuições obtidas como distribuições _a priori_ em análises bayesianas da prevalência.
+
+Habilidades a serem desenvolvidas: R/Python, Estatística bayesiana, Bioestatística.
+
+O projeto será co-supervisionado por [Lucas Moschen](https://lucasmoschen.github.io/).
+
 ---
 
 # Honours thesis (TCC)
