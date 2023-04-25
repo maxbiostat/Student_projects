@@ -34,18 +34,7 @@ Em [trabalho recente](https://github.com/maxbiostat/presentations/blob/master/PD
 Habilidades a serem desenvolvidas: MCMC, R, métodos numéricos, cadeias de Markov de tempo discreto. 
 
 ---
-
-A2) **Aceleração e truncamento de séries infinitas**
-
-Em [Carvalho & Moreira (2022)](https://arxiv.org/abs/2202.06121) investigamos estratégias de truncamento de séries infinitas para garantir aproximações de séries infinitas com erro controlado. Neste projeto, buscamos estender as técnicas desenvolvidas utilizando técnicas de aceleração de séries (ver pg 300, seção 8.6 de [Small, 2010](https://www.esalq.usp.br/departamentos/lce/arquivos/aulas/2011/LCE5866/Expansions%20and%20Asymptotics%20for%20Statistics.pdf)). Aplicações incluem a estimação do espectro de autocorrelação de uma cadeia de Markov e ainda muitos problemas de marginalização em Estatística.
-
-Trabalho em conjunto com [Guido Moreira](https://github.com/GuidoAMoreira).
-
-Habilidades a serem desenvolvidas: análise numérica; R, C++.
-
----
-
-A3) **sumPy: truncamento numericamente estável de séries infinitas em Python**
+A2) **sumPy: truncamento numericamente estável de séries infinitas em Python**
 
 Neste projeto queremos portar e expandir as funcionalidades do pacote do R [**sumR**](https://github.com/GuidoAMoreira/sumR) na linguagem Python. A ideia é reproduzir a estrutura do pacote R, criando _wrappers_ para as funções em baixo nível (já implementadas em C). Queremos também adicionar _features_ como a capacidade de tratar séries que podem ser negativas.
 
@@ -53,7 +42,7 @@ Trabalho em conjunto com [Guido Moreira](https://github.com/GuidoAMoreira).
 
 Habilidades a serem desenvolvidas: programação científica em Python e C.
 
-A4) **Análise conjunta de sensibilidade e especificidade de testes diagnósticos**
+A3) **Análise conjunta de sensibilidade e especificidade de testes diagnósticos**
 
 Testes diagnósticos em geral são imperfeitos, isto é, detectam a condição de interesse com certas características de operação (sensibilidade e especificidade). Neste projeto vamos coletar e analisar dados de meta-análises sob diferentes modelos para a distribuição conjunta da sensibilidade e especificidade de testes diagnósticos para doenças. Vamos testar modelos beta bivariados e baseados em variáveis latentes gaussianas.
 O objetivo final é entender que modelos melhor se adequam aos variados tipos de dados e como utilizar as distribuições obtidas como distribuições _a priori_ em análises bayesianas da prevalência.
@@ -121,5 +110,21 @@ A3) **Rao-Blackwellising Bayesian Stochastic Search Variable Selection**
 In statistical applications with limited data, it is important to enforce _regularisation_, that is to encode parsimony into the modelling process so that our models do not overfit the data and lose predictive power. Moreover, it is important to encode _sparsity_, that is the notion that big effects are few and far between, floating in a sea of irrelevance. In this project, we will return to basics and give the **Bayesian Stochastic Search Variable Selection (BSSVS)** model of [George & Mcculloch (1993)](https://people.eecs.berkeley.edu/~russell/classes/cs294/f05/papers/george+mcculloch-1993.pdf) a modern spin. In particular, we will marginalise over the discrete predictor assigments, effectively providing a Rao-Blackwellised version of the model. Implementation will be done in the [Stan](https://mc-stan.org/) probabilistic programming language. In particular, we will investigate how to exploit massive parallelisation in the form of the [`reduce_sum`](https://mc-stan.org/docs/2_23/stan-users-guide/reduce-sum.html) in order to speed things up.
 
 Skills to be developed: Stan and C++ programming, Bayesian statistics. 
+
+A4) **Fitting generalised joint models in Stan** 
+
+In many applications one has more than one set of temporally-structured data on a set of subjects.
+Traditionally, one would fit two separate models for each type of data.
+Joint models [(Henderson, Diggle and Dobson, 2000)](1093/biostatistics/1.4.465) address this issue by simultaneously fitting two (or more) models, sharing parameters where appropriate.
+
+Usually the longitudinal component takes the form of temporally-structured measurements of one or more markers (e.g. blood sugar) for each individual, modelled by generalised linear models with time-structured random effects.
+Transformations of the estimated curves (at the individual level) are then used as predictors for the survival times associated with some outcome of interest (i.e. development of diabetes).
+Since it is not always possible to obtain direct time-to-event data, it is desirable to extend this modelling strategy to other types of data, such as binary data to be modelled via logistic regression.
+
+In this project we want to extend the [current](https://cran.r-project.org/web/packages/rstanarm/vignettes/jm.html) implementation in [rstanarm](https://mc-stan.org/rstanarm/) R package to general data types.
+We will then apply these routines to problems in environmental epidemiology, modelling the relationship between climatic factors (temperature, humidity, pollution) and the presence/absence of arthropod disease vectors.
+ 
+Skills to be developed: Bayesian statistics, R, Stan, C++.
+Co-supervised with Professor [Claudio Struchiner](https://emap.fgv.br/professores/claudio-jose-struchiner).
 
 
