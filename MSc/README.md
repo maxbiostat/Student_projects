@@ -101,3 +101,25 @@ References:
 - [Piironen, Paasiniemi and Vehtari (2020)](https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-14/issue-1/Projective-inference-in-high-dimensional-problems--Prediction-and-feature/10.1214/20-EJS1711.full).
 - [Piironen and Vehtari (2017a)](https://arxiv.org/abs/1503.08650).
 - [Piironen and Vehtari (2017b)](https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-11/issue-2/Sparsity-information-and-regularization-in-the-horseshoe-and-other-shrinkage/10.1214/17-EJS1337SI.full).
+
+---
+
+A5) **General inference selection with multilevel models**
+
+The question of identifying genes under natural selection is a central one in Evolutionary Biology.
+[Eilertson, Booth & Bustamante, (2012)](https://doi.org/10.1371/journal.pcbi.1002806) propose a method to use genome-wide polymorphism data to infer selection using a multilevel logistic model fitted to tens of thousands of (2x2) Mk matrices.
+The estimated coefficients can then be mapped onto the parameters of a Poisson random field (PRF) that has a direct evolutionary interpretation.
+In this project we will explore this framework to generalise this approach to other evolutionary models. In this project the student will
+i. study how to fit other evolutionary models using the SnIPRE approach;
+ii. simulate evolutionary trajectories (and data) using the [SLiM](https://messerlab.org/slim/) simulator in order to understand how robust the SnIPRE approach to violations of its assumptions;
+iii. study how to use extra information on the genes (e.g. whether they're associated with immunity or saliva) to detect patterns in the random effects scatterplots;
+iv. Try to discern chromosome-wide effects: do sexual chromosomes evolve faster?
+
+All of the development will be done in Stan and follow modern Bayesian techniques such as non-centering, simulation-based calibration and predictive checking.
+
+Skills to be developed: Stan and C++ programming, Bayesian statistics, Statistical Genetics. 
+Co-supervised with Professor [Claudio Struchiner](https://emap.fgv.br/professores/claudio-jose-struchiner).
+
+References:
+
+- [Eilertson, Booth & Bustamante (2012)](https://doi.org/10.1371/journal.pcbi.1002806)
