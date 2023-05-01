@@ -46,6 +46,8 @@ Whilst the general problem of prevalence estimation under outcome uncertainty ha
 There are however many open regression problems, such as for instance re-testing of positive cases, a routine procedure nowadays. 
 The student will be expected to implement and extend the models in Section 7.3 of [Bastos, Carvalho & Gomes (2021)](https://github.com/maxbiostat/papers/blob/master/PAPERS/2021_Bastos_Carvalho_Gomes.pdf) using both simulated and real-world data. 
 
+Skills to be developed: Stan/NIMBLE, Multilevel modelling. 
+
 References:
 - In addition to the references already given, Lucas Moschen's [honours thesis](https://github.com/lucasmoschen/rds-bayesian-analysis-tcc) is great resource.
 - [This](https://github.com/epiforecasts/inc2prev) repository might come in handy.
@@ -63,6 +65,8 @@ These then need to be statistically corrected to give a better picture of the ac
 Another aspect of epidemic surveillance is tracking the effective reproductive number (Rt) of the disease through time, as measure of risk of (exponential) disease spread. 
 In this project, the student will couple the delay-correction nowcasting model of [Bastos et al. (2019)](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.8303) and the Rt estimation methods in the R package [EpiEstim](https://github.com/mrc-ide/EpiEstim) to create a unified framework for accurate Rt calculation by explicitly modelling data misreporting. 
 
+
+Skills to be developed: [INLA](https://www.r-inla.org/), R, Applied Bayesian Statistics. 
 This is joint work with Drs [Leo Bastos](https://lsbastos.github.io/) and [Marcelo Gomes](https://scholar.google.com/citations?user=b018FBIAAAAJ&hl=en&authuser=1&oi=ao). 
 
 ---
@@ -92,6 +96,7 @@ In many practical applications, especially in Biology and Medicine, one is confr
 
 The project will work along two axes: (i) realistically simulating sparse-but-correlated design matrices and (ii) developing memory-efficient implementations that scale with dimension.
 
+Skills to be developed: Stan and C++ programming, Bayesian statistics, Variable selection. 
 This is joint work with [Aki Vehtari](https://users.aalto.fi/~ave/).
 
 References:
@@ -104,7 +109,7 @@ References:
 
 ---
 
-A5) **General inference selection with multilevel models**
+A5) **General inference of natural selection with multilevel models**
 
 The question of identifying genes under natural selection is a central one in Evolutionary Biology.
 [Eilertson, Booth & Bustamante, (2012)](https://doi.org/10.1371/journal.pcbi.1002806) propose a method to use genome-wide polymorphism data to infer selection using a multilevel logistic model fitted to tens of thousands of (2x2) Mk matrices.
