@@ -42,6 +42,8 @@ Trabalho em conjunto com [Guido Moreira](https://github.com/GuidoAMoreira).
 
 Habilidades a serem desenvolvidas: programação científica em Python e C.
 
+---
+
 A3) **Análise conjunta de sensibilidade e especificidade de testes diagnósticos**
 
 Testes diagnósticos em geral são imperfeitos, isto é, detectam a condição de interesse com certas características de operação (sensibilidade e especificidade). Neste projeto vamos coletar e analisar dados de meta-análises sob diferentes modelos para a distribuição conjunta da sensibilidade e especificidade de testes diagnósticos para doenças. Vamos testar modelos beta bivariados e baseados em variáveis latentes gaussianas.
@@ -80,6 +82,8 @@ References: [Chira & Thomas (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PM
 
 Skills to be developed: Statistical phylogenetics, Bayesian statistics, JAVA.
 
+---
+
 T3) **Studying phylogenetic distances for time-calibrated trees**
 Time-calibrated phylogenies are central objects in Molecular Epidemiology and Phylodynamics.
 Computing distances between trees is fundamental task in the analysis of samples of trees ([Smith, 2022](https://academic.oup.com/sysbio/article/71/5/1255/6486431)), but there is no canonical distance in the space of phylogenies.
@@ -87,6 +91,7 @@ Faced with many choices of metric, what is the analyst to do? In this project th
 
 Skills to be developed: Computational statistics, Statistical phylogenetics.
 
+---
 
 A1) **Survival and reproductive analysis of _Rhodnius prolixus_, the Chagas disease vector**
 
@@ -99,17 +104,23 @@ References: [Carvalho, Struchiner & Bastos (2015)](https://github.com/maxbiostat
 
 Skills to be developed: Applied Statistics, Bayesian statistics, survival analysis, R.
 
+---
+
 A2) **PhyloPosteriorDB: a collection of curated phylogenetic data sets for method development**
 
 Having a set of curated, well-studied and realistic data sets is a great asset for the development of new analytical methods. In particular, Markov Chain Monte Carlo (MCMC) can be challenge to develop and test without a reliable benchmark. Inspired by the [**posteriordb**](https://github.com/stan-dev/posteriordb) project, the student will improve and expand [**this**](https://github.com/maxbiostat/MEP_data) collection of rich, real-world data sets in order to provide the [Phylogenetics community](https://www.phylobabble.org/) with easy-to-use data to check their new methods against. The student will also develop novel memmory-efficient ways of storing large posterior samples of trees that can be accessed and used for further processing. 
 
 Skills to be developed: [BEAST](https://github.com/beast-dev/beast-mcmc), Database programming, Statistical Phylogenetics.
 
+---
+
 A3) **Rao-Blackwellising Bayesian Stochastic Search Variable Selection**
 
 In statistical applications with limited data, it is important to enforce _regularisation_, that is to encode parsimony into the modelling process so that our models do not overfit the data and lose predictive power. Moreover, it is important to encode _sparsity_, that is the notion that big effects are few and far between, floating in a sea of irrelevance. In this project, we will return to basics and give the **Bayesian Stochastic Search Variable Selection (BSSVS)** model of [George & Mcculloch (1993)](https://people.eecs.berkeley.edu/~russell/classes/cs294/f05/papers/george+mcculloch-1993.pdf) a modern spin. In particular, we will marginalise over the discrete predictor assigments, effectively providing a Rao-Blackwellised version of the model. Implementation will be done in the [Stan](https://mc-stan.org/) probabilistic programming language. In particular, we will investigate how to exploit massive parallelisation in the form of the [`reduce_sum`](https://mc-stan.org/docs/2_23/stan-users-guide/reduce-sum.html) in order to speed things up.
 
 Skills to be developed: Stan and C++ programming, Bayesian statistics. 
+
+---
 
 A4) **Fitting generalised joint models in Stan** 
 
@@ -126,5 +137,3 @@ We will then apply these routines to problems in environmental epidemiology, mod
  
 Skills to be developed: Bayesian statistics, R, Stan, C++.
 Co-supervised with Professor [Claudio Struchiner](https://emap.fgv.br/professores/claudio-jose-struchiner).
-
-
