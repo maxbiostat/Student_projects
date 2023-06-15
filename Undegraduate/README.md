@@ -93,6 +93,19 @@ Skills to be developed: Computational statistics, Statistical phylogenetics.
 
 ---
 
+T4) **Your best bad prior: bridging computability and model accuracy in Bayesian statistics**
+
+Bayesian inference is amazing. It is also very computationally demanding. Sometimes the gap between the models we want to fit and the models we can actually fit seems like a chasm.
+In this project we are concerned with post inference prior swapping ([Neiswanger & Eric Xing (2017)](https://arxiv.org/abs/1606.00787)), in particular we are concerned with the following problem: suppose you would like to compute the posterior `p(theta|y) = l(y|theta)q(theta)/m(y)`, but the computational machinery currently available to you is not able to accurately compute expectations of a class of functions `H` with respect to `p`. The questions  are then: (i) how to pick a member `w` from the set `W` of _computable_ priors such that `p_app(theta|y) = l(y|theta)w(theta)/m_app(y)` is the closest it can be to  `p(theta|y)`and (ii) how to modify samples from `p_app(theta|y)` in order to compute `E_p[h]` as accurately as possible.
+
+References: Maybe [ppbo](https://github.com/hhau/pbbo) could be of some help.
+
+This will be jointly supervised by [Diego Mesquita](https://weakly-informative.github.io/).
+
+Skills to be developed: Computational statistics, Bayesian statistics.
+
+---
+
 A1) **Survival and reproductive analysis of _Rhodnius prolixus_, the Chagas disease vector**
 
 Chagas disease continues to pose important challenges to Public Health in Brazil. With climate change and temperate zones potentially becoming warmer and more hospitable to the disease's vector, _Rhodnius prolixus_, this might become a global concern.
