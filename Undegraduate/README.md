@@ -34,17 +34,8 @@ Em [trabalho recente](https://github.com/maxbiostat/presentations/blob/master/PD
 Habilidades a serem desenvolvidas: MCMC, R, métodos numéricos, cadeias de Markov de tempo discreto. 
 
 ---
-A2) **sumPy: truncamento numericamente estável de séries infinitas em Python**
 
-Neste projeto queremos portar e expandir as funcionalidades do pacote do R [**sumR**](https://github.com/GuidoAMoreira/sumR) na linguagem Python. A ideia é reproduzir a estrutura do pacote R, criando _wrappers_ para as funções em baixo nível (já implementadas em C). Queremos também adicionar _features_ como a capacidade de tratar séries que podem ser negativas.
-
-Trabalho em conjunto com [Guido Moreira](https://github.com/GuidoAMoreira).
-
-Habilidades a serem desenvolvidas: programação científica em Python e C.
-
----
-
-A3) **Análise conjunta de sensibilidade e especificidade de testes diagnósticos**
+A2) **Análise conjunta de sensibilidade e especificidade de testes diagnósticos**
 
 Testes diagnósticos em geral são imperfeitos, isto é, detectam a condição de interesse com certas características de operação (sensibilidade e especificidade). Neste projeto vamos coletar e analisar dados de meta-análises sob diferentes modelos para a distribuição conjunta da sensibilidade e especificidade de testes diagnósticos para doenças. Vamos testar modelos beta bivariados e baseados em variáveis latentes gaussianas.
 O objetivo final é entender que modelos melhor se adequam aos variados tipos de dados e como utilizar as distribuições obtidas como distribuições _a priori_ em análises bayesianas da prevalência.
