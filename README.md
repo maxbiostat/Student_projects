@@ -12,6 +12,11 @@ These range from programming for Public Health data analysis to theoretical stat
 
 ---
 
+### Coding projects
+
+If you like programming and would like to flex your coding muscles in Scientific Computing problems, take a look at the projects in [**Programming Projects**](https://github.com/maxbiostat/Student_projects/tree/main/ProgrammingProjects) and see if anything whets your appetite. 
+
+---
 ### Master's degree
 
 A few projects suitable for a MSc Dissertation (in Applied Mathematics) are listed [**here**](https://github.com/maxbiostat/Student_projects/blob/main/MSc/README.md). Feel free to contact me about them, but know that it is probably best to complete coursework before you start the dissertation.
