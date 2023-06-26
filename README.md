@@ -35,7 +35,7 @@ For PhD-level work I expect a solid theoretical basis, as well as a commitment t
 ### Current students
 
 - 2022- [Wellington Silva](https://github.com/wellington36) (IC), "Aceleração e truncamento de séries infinitas".
-- 2022- [Eduardo Adame Salles](https://github.com/adamesalles) (IC), "Convex Gaussian Processes with derivative information".
+- 2022- [Eduardo Adame Salles](https://github.com/adamesalles) (IC), "Shape-constrained Gaussian Processes with derivative information".
 - 2023- [Isaque Pim](https://github.com/isaquepim) (MSc), "Topics in variable selection".
 - 2023- Ezequiel Braga (IC), "Estendendo a formulação de modelos conjuntos em Stan".
 - 2023- [Igor Michels](https://github.com/IgorMichels) (IC), "Modelagem Matemática do Futebol Brasileiro" 
