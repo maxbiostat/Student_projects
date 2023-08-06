@@ -4,5 +4,7 @@
 - [Adaptive truncation for the Conway-Maxwell Poisson in **brms**](https://github.com/maxbiostat/Student_projects/blob/main/ProgrammingProjects/COMP_brms.md). Language: Stan.
 - [Porting birth-death exact probabilities into  Stan](https://github.com/maxbiostat/Student_projects/blob/main/ProgrammingProjects/MultiBD_Stan.md). Languages: C++, Stan.
 - [Phylo2Vec in R](https://github.com/maxbiostat/Student_projects/blob/main/ProgrammingProjects/Phylo2VectR.md). Languages: Python, R.
+- [Implementing a complicated likelihood involving an infinite sum](https://github.com/maxbiostat/Student_projects/blob/main/ProgrammingProjects/inbreeding.md). Languages: C, R.
+  
 
 
