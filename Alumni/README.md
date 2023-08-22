@@ -18,7 +18,7 @@ Students I have supervised over the years.
 | [Cristiana Nogueira](https://github.com/Cristiananc) | 2021-2021 | [Penalised complexity priors for the reconstruction of past population size from phylogenies](https://bibliotecadigital.fgv.br/dspace/bitstream/handle/10438/31847/TCC%20-%20Cristiana%20Couto.pdf?sequence=1)| 
 | [Lucas Moschen](https://github.com/lucasmoschen/) | 2021-2021 | [Prevalence estimation and binary regression methods for RDS with outcome uncertainty](https://github.com/lucasmoschen/rds-bayesian-analysis-tcc) |
 | [Tarla Lemos](https://github.com/TLAndrade) | 2021-2021 | Métodos estatísticos para inferir o coeficiente de endocruzamento usando dados genéticos | 
-| [João Pedro Marciano](https://github.com/JPMarciano) | 2021-2022 | The space of time-calibrated phylogenies | 
+| [João Pedro Marciano](https://github.com/JPMarciano) | 2021-2022 | [The space of time-calibrated phylogenies](https://bibliotecadigital.fgv.br/dspace/handle/10438/33849) | 
 | [Isaque Pim](https://github.com/isaquepim)| 2022-2022 | [Seleção de variáveis por busca estocástica para epidemiologia espacial](https://bibliotecadigital.fgv.br/dspace/bitstream/handle/10438/33851/TCC%20-%20Isaque%20Vieira%20Pim.pdf?sequence=1&isAllowed=y) | 
-| [Marcos Antônio Alves](https://br.linkedin.com/in/marcos-antonio-alves-?original_referer=https%3A%2F%2Fwww.google.com%2F)| 2022-2022 | Exploração e modelagem informacional de dados públicos de saúde | 
-| [Pedro Dall'Antonia](https://github.com/pedrodall)| 2022-2022 | Um Estudo sobre Causalidade| 
+| [Marcos Antônio Alves](https://br.linkedin.com/in/marcos-antonio-alves-?original_referer=https%3A%2F%2Fwww.google.com%2F)| 2022-2022 | [Exploração e modelagem informacional de dados públicos de saúde](https://bibliotecadigital.fgv.br/dspace/handle/10438/33848) | 
+| [Pedro Dall'Antonia](https://github.com/pedrodall)| 2022-2022 | [Um Estudo sobre Causalidade](https://bibliotecadigital.fgv.br/dspace/handle/10438/33840)| 
