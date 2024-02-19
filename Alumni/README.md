@@ -22,3 +22,6 @@ Students I have supervised over the years.
 | [Isaque Pim](https://github.com/isaquepim)| 2022-2022 | [Seleção de variáveis por busca estocástica para epidemiologia espacial](https://bibliotecadigital.fgv.br/dspace/bitstream/handle/10438/33851/TCC%20-%20Isaque%20Vieira%20Pim.pdf?sequence=1&isAllowed=y) | 
 | [Marcos Antônio Alves](https://br.linkedin.com/in/marcos-antonio-alves-?original_referer=https%3A%2F%2Fwww.google.com%2F)| 2022-2022 | [Exploração e modelagem informacional de dados públicos de saúde](https://bibliotecadigital.fgv.br/dspace/handle/10438/33848) | 
 | [Pedro Dall'Antonia](https://github.com/pedrodall)| 2022-2022 | [Um Estudo sobre Causalidade](https://bibliotecadigital.fgv.br/dspace/handle/10438/33840)| 
+| [Wellington Silva](https://github.com/wellington36)| 2022-2023| Métodos de extrapolação de séries aplicados à distribuição de Tweedie|
+|[Ademir Tomaz Filho](https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAACrYKlcB-pIamS5gBcZxFKsgkM-9UEuj1Rg&keywords=ademir%20tomaz%20filho&origin=RICH_QUERY_SUGGESTION&position=0&searchId=2b99c2b7-cf73-43b5-9bf2-9be11091ad06&sid=86r&spellCorrectionEnabled=false)|2023-2023|Aprendizado de redes adversariais generativas: um estudo de caso|
+
