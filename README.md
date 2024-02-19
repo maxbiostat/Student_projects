@@ -35,14 +35,14 @@ For PhD-level work I expect a solid theoretical basis, as well as a commitment t
 ### Current students
 
 
-- 2022- [Eduardo Adame Salles](https://github.com/adamesalles) (IC), "Shape-constrained Gaussian Processes with derivative information".
+- 2022- [Eduardo Adame Salles](https://github.com/adamesalles) (IC, INCTMat), "Shape-constrained Gaussian Processes with derivative information".
 - 2023- [Ezequiel Braga](https://github.com/EzequielEBS) (IC), "Estendendo a formulação de modelos conjuntos em Stan".
-- 2023- [Iara Castro](https://github.com/iaracastro) (IC), "Utilizando dados públicos para mitigar a dengue".
-- 2023- [Rodrigo Kalil](https://www.linkedin.com/in/rodrigo-cavalcante-kalil/?locale=en_US) (IC), "Estendendo a formulação de modelos conjuntos em Stan".
-- 2022- [Wellington Silva](https://github.com/wellington36) (MSc), "Efficient Bayesian computation for intractable count models".
-- 2023- [Igor Michels](https://github.com/IgorMichels) (MSc), "Modelagem Matemática do Futebol Brasileiro". 
-- 2023- [Isaque Pim](https://github.com/isaquepim) (MSc), "Topics in variable selection".
-- 2023- [Felipe Shardong](https://www.linkedin.com/in/felipe-schardong-9911a1217/) (PhD), "Mathematical modelling of antimicrobial resistance in Brazil"
-- 2024- [Atílio Leitão Pellegrino](https://www.linkedin.com/in/at%C3%ADlio-leit%C3%A3o-pellegrino-59016a192/?originalSubdomain=br) (PhD), "Combining forecasts from epidemiological models: theory and methods."
+- 2023- [Iara Castro](https://github.com/iaracastro) (IC, CNPq), "Utilizando dados públicos para mitigar a dengue".
+- 2023- [Rodrigo Kalil](https://www.linkedin.com/in/rodrigo-cavalcante-kalil/?locale=en_US) (IC, FAPERJ), "Estendendo a formulação de modelos conjuntos em Stan".
+- 2022- [Wellington Silva](https://github.com/wellington36) (MSc, CAPES), "Efficient Bayesian computation for intractable count models".
+- 2023- [Igor Michels](https://github.com/IgorMichels) (MSc, CAPES), "Modelagem Matemática do Futebol Brasileiro". 
+- 2023- [Isaque Pim](https://github.com/isaquepim) (MSc, CAPES), "Topics in variable selection".
+- 2023- [Felipe Shardong](https://www.linkedin.com/in/felipe-schardong-9911a1217/) (PhD, CAPES), "Mathematical modelling of antimicrobial resistance in Brazil".
+- 2024- [Atílio Leitão Pellegrino](https://www.linkedin.com/in/at%C3%ADlio-leit%C3%A3o-pellegrino-59016a192/?originalSubdomain=br) (PhD, CAPES), "Combining forecasts from epidemiological models: theory and methods".
 
 A [list of past students](https://github.com/maxbiostat/Student_projects/tree/main/Alumni#readme) is also available. 
