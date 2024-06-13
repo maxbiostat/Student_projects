@@ -25,3 +25,7 @@ Students I have supervised over the years.
 | [Wellington Silva](https://github.com/wellington36)| 2022-2023| Métodos de extrapolação de séries aplicados à distribuição de Tweedie|
 |[Ademir Tomaz Filho](https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAACrYKlcB-pIamS5gBcZxFKsgkM-9UEuj1Rg&keywords=ademir%20tomaz%20filho&origin=RICH_QUERY_SUGGESTION&position=0&searchId=2b99c2b7-cf73-43b5-9bf2-9be11091ad06&sid=86r&spellCorrectionEnabled=false)|2023-2023|Aprendizado de redes adversariais generativas: um estudo de caso|
 
+### PhD Thesis
+| Student  | Period    | Project                   | 
+|----------|-----------|---------------------------| 
+| [Yueqi (Angie) Shen](https://scholar.google.com/citations?user=DPSj_L8AAAAJ&hl=en) | 2021-2024 | [Incorporating Historical Information in Bayesian Clinical Trial Design Using the Normalized Power Prior](https://cdr.lib.unc.edu/downloads/k930c792k) |
