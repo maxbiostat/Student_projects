@@ -41,7 +41,7 @@ For PhD-level work I expect a solid theoretical basis, as well as a commitment t
 - 2023- [Rodrigo Kalil](https://www.linkedin.com/in/rodrigo-cavalcante-kalil/?locale=en_US) (IC, FAPERJ), "Estendendo a formulação de modelos conjuntos em Stan".
 - 2022- [Wellington Silva](https://github.com/wellington36) (MSc, CAPES), "Efficient Bayesian computation for intractable count models".
 - 2023- [Igor Michels](https://github.com/IgorMichels) (MSc, CAPES), "Modelagem Matemática do Futebol Brasileiro". 
-- 2023- [Isaque Pim](https://github.com/isaquepim) (MSc, CAPES), "Topics in variable selection".
+- 2023- [Isaque Pim](https://github.com/isaquepim) (MSc, CAPES), "Spatial confounding for areal data".
 - 2023- [Felipe Shardong](https://www.linkedin.com/in/felipe-schardong-9911a1217/) (PhD, CAPES), "Mathematical modelling of antimicrobial resistance in Brazil".
 - 2024- [Atílio Leitão Pellegrino](https://www.linkedin.com/in/at%C3%ADlio-leit%C3%A3o-pellegrino-59016a192/?originalSubdomain=br) (PhD, CAPES), "Combining forecasts from epidemiological models: theory and methods".
 
