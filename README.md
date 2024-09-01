@@ -45,4 +45,4 @@ For PhD-level work I expect a solid theoretical basis, as well as a commitment t
 - 2023- [Felipe Shardong](https://www.linkedin.com/in/felipe-schardong-9911a1217/) (PhD, CAPES), "Mathematical modelling of antimicrobial resistance in Brazil".
 - 2024- [Atílio Leitão Pellegrino](https://www.linkedin.com/in/at%C3%ADlio-leit%C3%A3o-pellegrino-59016a192/?originalSubdomain=br) (PhD, CAPES), "Combining forecasts from epidemiological models: theory and methods".
 
-A [list of past students](https://github.com/maxbiostat/Student_projects/tree/main/Alumni#readme) is also available. 
+A [list of former students](https://github.com/maxbiostat/Student_projects/tree/main/Alumni#readme) is also available. 
