@@ -35,14 +35,12 @@ For PhD-level work I expect a solid theoretical basis, as well as a commitment t
 ### Current students
 
 
-- 2022- [Eduardo Adame Salles](https://github.com/adamesalles) (IC, INCTMat), "Shape-constrained Gaussian Processes with derivative information".
-- 2023- [Ezequiel Braga](https://github.com/EzequielEBS) (IC), "Estendendo a formulação de modelos conjuntos em Stan".
-- 2023- [Iara Castro](https://github.com/iaracastro) (IC, CNPq), "Utilizando dados públicos para mitigar a dengue".
-- 2023- [Rodrigo Kalil](https://www.linkedin.com/in/rodrigo-cavalcante-kalil/?locale=en_US) (IC, FAPERJ), "Estendendo a formulação de modelos conjuntos em Stan".
-- 2022- [Wellington Silva](https://github.com/wellington36) (MSc, CAPES), "Efficient Bayesian computation for intractable count models".
-- 2023- [Igor Michels](https://github.com/IgorMichels) (MSc, CAPES), "Modelagem Matemática do Futebol Brasileiro". 
-- 2023- [Isaque Pim](https://github.com/isaquepim) (MSc, CAPES), "Spatial confounding for areal data".
-- 2023- [Felipe Shardong](https://www.linkedin.com/in/felipe-schardong-9911a1217/) (PhD, CAPES), "Mathematical modelling of antimicrobial resistance in Brazil".
+- 2025- [Eduardo Adame Salles](https://github.com/adamesalles) (MSc), "Exact MCMC for the normalised power prior".
+- 2025- [Ezequiel Braga](https://github.com/EzequielEBS) (MSc), "Principled Bayesian analysis under the normalised power prior".
+- 2025- [Iara Castro](https://github.com/iaracastro) (MSc), "Survival methods for cancer treatment equity in Brazil".
+- 2024- [Wellington Silva](https://github.com/wellington36) (MSc, CAPES), "Efficient Bayesian computation for intractable count models".
+- 2023- [Igor Michels](https://github.com/IgorMichels) (MSc, CAPES), "Bayesian calibration of player-level football models". 
+- 2023- [Felipe Schardong](https://www.linkedin.com/in/felipe-schardong-9911a1217/) (PhD, CAPES), "Mathematical modelling of antimicrobial resistance in Brazil".
 - 2024- [Atílio Leitão Pellegrino](https://www.linkedin.com/in/at%C3%ADlio-leit%C3%A3o-pellegrino-59016a192/?originalSubdomain=br) (PhD, CAPES), "Combining forecasts from epidemiological models: theory and methods".
 
 A [list of former students](https://github.com/maxbiostat/Student_projects/tree/main/Alumni#readme) is also available. 
