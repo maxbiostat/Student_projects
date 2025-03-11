@@ -25,6 +25,12 @@ Students I have supervised over the years.
 | [Wellington Silva](https://github.com/wellington36)| 2022-2023| Métodos de extrapolação de séries aplicados à distribuição de Tweedie|
 |[Ademir Tomaz Filho](https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAACrYKlcB-pIamS5gBcZxFKsgkM-9UEuj1Rg&keywords=ademir%20tomaz%20filho&origin=RICH_QUERY_SUGGESTION&position=0&searchId=2b99c2b7-cf73-43b5-9bf2-9be11091ad06&sid=86r&spellCorrectionEnabled=false)|2023-2023|Aprendizado de redes adversariais generativas: um estudo de caso|
 
+### MSc Dissertation
+| Student  | Period    | Project                   | 
+|----------|-----------|---------------------------| 
+| [Isaque Pim](https://github.com/isaquepim) | 2023-2025 | Spatial Confounding: From Classical Models to Modern Applications|
+
+
 ### PhD Thesis
 | Student  | Period    | Project                   | 
 |----------|-----------|---------------------------| 
