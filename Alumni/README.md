@@ -8,6 +8,8 @@ Students I have supervised over the years.
 |----------|-----------|---------------------------|
 | [Fernanda Gomes](https://github.com/fernandalsgomes) | 2020-2021 | Did COVID-19 models fail? | 
 | [Victor Bombarda](https://github.com/victorbombarda) | 2020-2021 | Did COVID-19 models fail? |
+| [Rodrigo Kalil](https://www.linkedin.com/in/rodrigo-cavalcante-kalil/?locale=en_US) | 2024-2025 | Estendendo a formulação de modelos conjuntos em Stan |
+
 
 
 
