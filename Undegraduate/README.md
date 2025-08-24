@@ -122,6 +122,8 @@ A3) **Rao-Blackwellising Bayesian Stochastic Search Variable Selection**
 
 In statistical applications with limited data, it is important to enforce _regularisation_, that is to encode parsimony into the modelling process so that our models do not overfit the data and lose predictive power. Moreover, it is important to encode _sparsity_, that is the notion that big effects are few and far between, floating in a sea of irrelevance. In this project, we will return to basics and give the **Bayesian Stochastic Search Variable Selection (BSSVS)** model of [George & Mcculloch (1993)](https://people.eecs.berkeley.edu/~russell/classes/cs294/f05/papers/george+mcculloch-1993.pdf) a modern spin. In particular, we will marginalise over the discrete predictor assigments, effectively providing a Rao-Blackwellised version of the model. Implementation will be done in the [Stan](https://mc-stan.org/) probabilistic programming language. In particular, we will investigate how to exploit massive parallelisation in the form of the [`reduce_sum`](https://mc-stan.org/docs/2_23/stan-users-guide/reduce-sum.html) in order to speed things up.
 
+ - [These](https://jsocolar.github.io/marginalizedOccupancy/) notes  by Jacob Socolar might serve as inspiration.
+
 Skills to be developed: Stan and C++ programming, Bayesian statistics. 
 
 ---
