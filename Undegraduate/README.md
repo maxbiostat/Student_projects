@@ -44,6 +44,8 @@ Habilidades a serem desenvolvidas: R/Python, Estatística bayesiana, Bioestatís
 
 O projeto será co-supervisionado por [Lucas Moschen](https://lucasmoschen.github.io/).
 
+- Um bom artigo para ler é [Joint meta-analysis of two diagnostic tests accounting for within and between studies dependence](https://pubmed.ncbi.nlm.nih.gov/39262159/) 
+
 ---
 
 # Honours thesis (TCC)
