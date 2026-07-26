@@ -11,8 +11,6 @@ Students I have supervised over the years.
 | [Rodrigo Kalil](https://www.linkedin.com/in/rodrigo-cavalcante-kalil/?locale=en_US) | 2024-2025 | Estendendo a formulação de modelos conjuntos em Stan |
 
 
-
-
 ### Honours thesis (TCC)
 
 | Student  | Period    | Project                   | 
@@ -26,12 +24,22 @@ Students I have supervised over the years.
 | [Pedro Dall'Antonia](https://github.com/pedrodall)| 2022-2022 | [Um Estudo sobre Causalidade](https://bibliotecadigital.fgv.br/dspace/handle/10438/33840)| 
 | [Wellington Silva](https://github.com/wellington36)| 2022-2023| Métodos de extrapolação de séries aplicados à distribuição de Tweedie|
 |[Ademir Tomaz Filho](https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAACrYKlcB-pIamS5gBcZxFKsgkM-9UEuj1Rg&keywords=ademir%20tomaz%20filho&origin=RICH_QUERY_SUGGESTION&position=0&searchId=2b99c2b7-cf73-43b5-9bf2-9be11091ad06&sid=86r&spellCorrectionEnabled=false)|2023-2023|Aprendizado de redes adversariais generativas: um estudo de caso|
+| Iara Cristina Mescua| 2024-2024| Analise da Acessibilidade Espacial ao Tratamento do Cancer de Mama no Brasil|
+| Kalebe Maia| 2024-2024| Emulação de funções com restrição de forma|
+| Kalebe Maia| 2024-2024| Bayesian inference under arbitrary priors: reusing posterior samples from tractable models|
+| Ezequiel Braga | 2023-2024| A joint modelling approach for leishmaniasis in the state of São Paulo|
+| Felipe Lamarca| 2023-2024| Os determinantes do sucesso eleitoral em elei¸c˜oes legislativas no Brasil|
+| Rian Freitas| 2024-2024| Estudo de Resiliência de Séries Temporais das Músicas na Billboard Hot 100|
+| Kalebe Maia| 2025-2025| Bayesian inference under arbitrary priors: reusing posterior samples from tractable models|
 
 ### MSc Dissertation
+
 | Student  | Period    | Project                   | 
 |----------|-----------|---------------------------| 
 | [Isaque Pim](https://github.com/isaquepim) | 2023-2025 | Spatial Confounding: From Classical Models to Modern Applications|
-
+| [Atílio Pellegrino](https://github.com/AtilioLP) | 2023-2024 | Modelagem Matemática da Criminalidade: uma abordagem com EDO’s |
+| [Igor Michels](https://github.com/isaquepim) | 2024-2026 | Calibrated Bayesian at club and player levels|
+| [Eduardo Adame](https://github.com/adamesalles) | 2025-2026 | Exact MCMC for the normalised power prior|
 
 ### PhD Thesis
 | Student  | Period    | Project                   | 
