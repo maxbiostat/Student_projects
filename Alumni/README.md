@@ -25,8 +25,7 @@ Students I have supervised over the years.
 | [Wellington Silva](https://github.com/wellington36)| 2022-2023| Métodos de extrapolação de séries aplicados à distribuição de Tweedie|
 |[Ademir Tomaz Filho](https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAACrYKlcB-pIamS5gBcZxFKsgkM-9UEuj1Rg&keywords=ademir%20tomaz%20filho&origin=RICH_QUERY_SUGGESTION&position=0&searchId=2b99c2b7-cf73-43b5-9bf2-9be11091ad06&sid=86r&spellCorrectionEnabled=false)|2023-2023|Aprendizado de redes adversariais generativas: um estudo de caso|
 | Iara Cristina Mescua| 2024-2024| Analise da Acessibilidade Espacial ao Tratamento do Cancer de Mama no Brasil|
-| Kalebe Maia| 2024-2024| Emulação de funções com restrição de forma|
-| Kalebe Maia| 2024-2024| Bayesian inference under arbitrary priors: reusing posterior samples from tractable models|
+| Eduardo Adame| 2024-2024| Emulação de funções com restrição de forma|
 | Ezequiel Braga | 2023-2024| A joint modelling approach for leishmaniasis in the state of São Paulo|
 | Felipe Lamarca| 2023-2024| Os determinantes do sucesso eleitoral em elei¸c˜oes legislativas no Brasil|
 | Rian Freitas| 2024-2024| Estudo de Resiliência de Séries Temporais das Músicas na Billboard Hot 100|
