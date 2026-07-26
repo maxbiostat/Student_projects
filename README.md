@@ -35,12 +35,12 @@ For PhD-level work I expect a solid theoretical basis, as well as a commitment t
 ### Current students
 
 
-- 2025- [Eduardo Adame Salles](https://github.com/adamesalles) (MSc), "Exact MCMC for the normalised power prior".
 - 2025- [Ezequiel Braga](https://github.com/EzequielEBS) (MSc), "Principled Bayesian analysis under the normalised power prior".
 - 2025- [Iara Castro](https://github.com/iaracastro) (MSc), "Survival methods for cancer treatment equity in Brazil".
-- 2024- [Wellington Silva](https://github.com/wellington36) (MSc, CAPES), "Efficient Bayesian computation for intractable count models".
-- 2023- [Igor Michels](https://github.com/IgorMichels) (MSc, CAPES), "Bayesian calibration of player-level football models". 
 - 2023- [Felipe Schardong](https://www.linkedin.com/in/felipe-schardong-9911a1217/) (PhD, CAPES), "Mathematical modelling of antimicrobial resistance in Brazil".
 - 2024- [Atílio Leitão Pellegrino](https://www.linkedin.com/in/at%C3%ADlio-leit%C3%A3o-pellegrino-59016a192/?originalSubdomain=br) (PhD, CAPES), "Combining forecasts from epidemiological models: theory and methods".
+- 2026- [Edilton Brandão](https://github.com/edilton-bs) (MSc), "Using agent-based models to evaluate phylodynamic models of population dynamics".
+- 2026- [Victor Melquíades](https://www.linkedin.com/in/victormelquiades/) (MSc), "Counting shortest paths in complex networks".
+- 2026- [Wellington Silva](https://github.com/wellington36) (PhD, CAPES), "Efficient Bayesian computation for intractable count models".
 
 A [list of former students](https://github.com/maxbiostat/Student_projects/tree/main/Alumni#readme) is also available. 
